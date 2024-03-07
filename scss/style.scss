@@ -23,12 +23,12 @@
 }
 
 body {
-    background-color: #f7f9fc;
-    opacity: 1;
-    background-image: radial-gradient(#803f99 1.1500000000000001px, transparent 1.1500000000000001px),
-        radial-gradient(#803f99 1.1500000000000001px, #f7f9fc 1.1500000000000001px);
-    background-size: 46px 46px;
-    background-position: 0 0, 23px 23px;
+    background: radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #def3ff 68% 70%, #0000 72%) 32px 32px/calc(2*32px) calc(2*32px),
+        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #def3ff 68% 70%, #0000 72%) 32px 32px/calc(2*32px) calc(2*32px),
+        radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #def3ff 68% 70%, #0000 72%) 0 0/calc(2*32px) calc(2*32px),
+        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #def3ff 68% 70%, #0000 72%) 0 0/calc(2*32px) calc(2*32px),
+        repeating-conic-gradient(#ffffff 0 25%, #0000 0 50%) 0 0/calc(2*32px) calc(2*32px),
+        radial-gradient(#0000 66%, #def3ff 68% 70%, #0000 72%) 0 calc(32px/2)/32px 32px #ffffff;
     background-attachment: fixed;
     font-family: sans-serif;
 }
@@ -52,4 +52,156 @@ body {
 
 .text-justify {
     text-align: justify;
+}
+
+.btn-primary {
+    background-color: $purple !important;
+    border: 1px solid transparent !important;
+    color: $bg !important;
+    width: fit-content;
+    padding: 12px 16px;
+    border-radius: 10px;
+
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: none !important;
+        background-color: $bg !important;
+        border: 1px solid $purple !important;
+        color: $purple !important;
+    }
+}
+
+// cornor for image
+
+.aboutimg {
+    --s: 50px;
+    /* the size on the corner */
+    --t: 5px;
+    /* the thickness of the border */
+    --g: 20px;
+    /* the gap between the border and image */
+
+    padding: calc(var(--g) + var(--t));
+    outline: var(--t) solid $red;
+    /* the color here */
+    outline-offset: calc(-1*var(--t));
+    mask:
+        conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+        linear-gradient(#000 0 0) content-box;
+    transition: .4s;
+}
+
+// slider* {
+
+[type=radio] {
+    display: none;
+}
+
+#slider {
+    height: 35vw;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+#slider label {
+    margin: auto;
+    width: 60%;
+    height: 67%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+#s1:checked~#slide4,
+#s2:checked~#slide5,
+#s3:checked~#slide1,
+#s4:checked~#slide2,
+#s5:checked~#slide3 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+    transform: translate3d(-30%, 0, -200px);
+}
+
+#s1:checked~#slide5,
+#s2:checked~#slide1,
+#s3:checked~#slide2,
+#s4:checked~#slide3,
+#s5:checked~#slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(-15%, 0, -100px);
+}
+
+#s1:checked~#slide1,
+#s2:checked~#slide2,
+#s3:checked~#slide3,
+#s4:checked~#slide4,
+#s5:checked~#slide5 {
+    box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19);
+    transform: translate3d(0, 0, 0);
+}
+
+#s1:checked~#slide2,
+#s2:checked~#slide3,
+#s3:checked~#slide4,
+#s4:checked~#slide5,
+#s5:checked~#slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(15%, 0, -100px);
+}
+
+#s1:checked~#slide3,
+#s2:checked~#slide4,
+#s3:checked~#slide5,
+#s4:checked~#slide1,
+#s5:checked~#slide2 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+    transform: translate3d(30%, 0, -200px);
+}
+
+#slide1 {
+    background: #00BCD4;
+}
+
+#slide2 {
+    background: #4CAF50;
+}
+
+#slide3 {
+    background: #CDDC39;
+}
+
+#slide4 {
+    background: #FFC107;
+}
+
+#slide5 {
+    background: #FF5722;
+}
+
+// slider media query
+@media only screen and (max-width:575px) {
+    #slider label {
+        width: 80%;
+        height: 72%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    #slider label {
+        height: 50%;
+    }
+}
+
+// welcome msg
+
+@media only screen and (max-width:640px) {
+    .welcomeMsg {
+        height: 80vh;
+        overflow-y: auto;
+        padding-right: 10px;
+    }
 }
