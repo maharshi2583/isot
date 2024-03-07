@@ -1,11 +1,27 @@
+.navbar {
+  box-shadow: 0px 5px 20px rgba(176, 195, 211, 0.5);
+}
+
 .nav-link {
   transition: 0.3s all ease-in;
   border-bottom: 1px solid transparent;
 }
-
 .nav-link:hover {
   color: #803f99;
   border-color: #803f99;
 }
 
-/*# sourceMappingURL=style.css.map */
+.navbar-toggler {
+  color: #803f99;
+}
+.navbar-toggler span {
+  color: #803f99;
+}
+
+body {
+  background-color: #f7f9fc;
+  opacity: 1;
+  background-image: radial-gradient(#803f99 1.15px, transparent 1.15px), radial-gradient(#803f99 1.15px, #f7f9fc 1.15px);
+  background-size: 46px 46px;
+  background-position: 0 0, 23px 23px;
+}/*# sourceMappingURL=style.css.map */

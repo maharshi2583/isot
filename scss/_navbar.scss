@@ -1,5 +1,9 @@
 @import 'variable';
 
+.navbar {
+    box-shadow: 0px 5px 20px rgba(176, 195, 211, 0.5);
+}
+
 .nav-link {
     transition: .3s all ease-in;
     border-bottom: 1px solid transparent;
@@ -7,5 +11,13 @@
     &:hover {
         color: $purple;
         border-color: $purple;
+    }
+}
+
+.navbar-toggler {
+    color: $purple;
+
+    span {
+        color: $purple;
     }
 }

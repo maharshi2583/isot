@@ -1,2 +1,11 @@
 @import 'variable';
 @import 'navbar';
+
+body {
+    background-color: #f7f9fc;
+    opacity: 1;
+    background-image: radial-gradient(#803f99 1.1500000000000001px, transparent 1.1500000000000001px),
+        radial-gradient(#803f99 1.1500000000000001px, #f7f9fc 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-position: 0 0, 23px 23px;
+}
