@@ -1,0 +1,11 @@
+@import 'variable';
+
+.nav-link {
+    transition: .3s all ease-in;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+        color: $purple;
+        border-color: $purple;
+    }
+}
