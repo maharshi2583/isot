@@ -192,6 +192,36 @@ body {
     height: 50%;
   }
 }
+.img-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+.img-wrapper .img-overlay {
+  position: absolute;
+  color: #fff;
+  height: 0;
+  width: 100%;
+  bottom: 0;
+  background: rgba(128, 63, 153, 0.8);
+  border-radius: 5px;
+  visibility: hidden;
+  transition: 0.5s all ease;
+}
+.img-wrapper .img-overlay p {
+  font-size: 13px;
+}
+.img-wrapper .img-overlay .overlay-infos {
+  opacity: 0;
+  transition: 0.2s all ease;
+}
+.img-wrapper:hover .img-overlay {
+  height: 100%;
+  visibility: visible;
+}
+.img-wrapper:hover .overlay-infos {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 640px) {
   .welcomeMsg {
     height: 80vh;

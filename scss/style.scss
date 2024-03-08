@@ -92,7 +92,7 @@ body {
     transition: .4s;
 }
 
-// slider* {
+// slider
 
 [type=radio] {
     display: none;
@@ -193,6 +193,42 @@ body {
 @media only screen and (min-width:576px) and (max-width:768px) {
     #slider label {
         height: 50%;
+    }
+}
+
+// explore ahmedabad imgs
+.img-wrapper {
+    position: relative;
+    cursor: pointer;
+
+    .img-overlay {
+        position: absolute;
+        color: #fff;
+        height: 0;
+        width: 100%;
+        bottom: 0;
+        background: rgba($purple, $alpha: .8);
+        border-radius: 5px;
+        visibility: hidden;
+        transition: .5s all ease;
+
+        p {
+            font-size: 13px;
+        }
+
+        .overlay-infos {
+            opacity: 0;
+            transition: .2s all ease;
+        }
+    }
+
+    &:hover .img-overlay {
+        height: 100%;
+        visibility: visible;
+    }
+
+    &:hover .overlay-infos {
+        opacity: 1;
     }
 }
 
