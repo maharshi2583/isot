@@ -23,12 +23,10 @@
 }
 
 body {
-    background: radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #def3ff 68% 70%, #0000 72%) 32px 32px/calc(2*32px) calc(2*32px),
-        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #def3ff 68% 70%, #0000 72%) 32px 32px/calc(2*32px) calc(2*32px),
-        radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #def3ff 68% 70%, #0000 72%) 0 0/calc(2*32px) calc(2*32px),
-        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #def3ff 68% 70%, #0000 72%) 0 0/calc(2*32px) calc(2*32px),
-        repeating-conic-gradient(#ffffff 0 25%, #0000 0 50%) 0 0/calc(2*32px) calc(2*32px),
-        radial-gradient(#0000 66%, #def3ff 68% 70%, #0000 72%) 0 calc(32px/2)/32px 32px #ffffff;
+    background-color: #f7f9fc;
+    background-image: radial-gradient($purple 0.8px, transparent 0.8px), radial-gradient($purple 0.8px, $bg 0.8px);
+    background-size: 32px 32px;
+    background-position: 0 0, 16px 16px;
     background-attachment: fixed;
     font-family: sans-serif;
 }
@@ -72,6 +70,16 @@ body {
     }
 }
 
+.links {
+    color: $purple;
+    text-underline-offset: .5rem;
+    transition: .3s all ease;
+
+    &:hover {
+        color: $red;
+    }
+}
+
 // cornor for image
 
 .aboutimg {
@@ -92,152 +100,123 @@ body {
     transition: .4s;
 }
 
-// slider
-
-[type=radio] {
-    display: none;
-}
-
-#slider {
-    height: 35vw;
-    position: relative;
-    perspective: 1000px;
-    transform-style: preserve-3d;
-}
-
-#slider label {
-    margin: auto;
-    width: 60%;
-    height: 67%;
-    border-radius: 4px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    cursor: pointer;
-    transition: transform 0.4s ease;
-}
-
-#s1:checked~#slide4,
-#s2:checked~#slide5,
-#s3:checked~#slide1,
-#s4:checked~#slide2,
-#s5:checked~#slide3 {
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
-    transform: translate3d(-30%, 0, -200px);
-}
-
-#s1:checked~#slide5,
-#s2:checked~#slide1,
-#s3:checked~#slide2,
-#s4:checked~#slide3,
-#s5:checked~#slide4 {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
-    transform: translate3d(-15%, 0, -100px);
-}
-
-#s1:checked~#slide1,
-#s2:checked~#slide2,
-#s3:checked~#slide3,
-#s4:checked~#slide4,
-#s5:checked~#slide5 {
-    box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19);
-    transform: translate3d(0, 0, 0);
-}
-
-#s1:checked~#slide2,
-#s2:checked~#slide3,
-#s3:checked~#slide4,
-#s4:checked~#slide5,
-#s5:checked~#slide1 {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
-    transform: translate3d(15%, 0, -100px);
-}
-
-#s1:checked~#slide3,
-#s2:checked~#slide4,
-#s3:checked~#slide5,
-#s4:checked~#slide1,
-#s5:checked~#slide2 {
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
-    transform: translate3d(30%, 0, -200px);
-}
-
-#slide1 {
-    background: #00BCD4;
-}
-
-#slide2 {
-    background: #4CAF50;
-}
-
-#slide3 {
-    background: #CDDC39;
-}
-
-#slide4 {
-    background: #FFC107;
-}
-
-#slide5 {
-    background: #FF5722;
-}
-
-// slider media query
-@media only screen and (max-width:575px) {
-    #slider label {
-        width: 80%;
-        height: 72%;
-    }
-}
-
-@media only screen and (min-width:576px) and (max-width:768px) {
-    #slider label {
-        height: 50%;
-    }
-}
-
 // explore ahmedabad imgs
-.img-wrapper {
-    position: relative;
-    cursor: pointer;
+// .img-wrapper {
+//     position: relative;
+//     cursor: pointer;
 
-    .img-overlay {
-        position: absolute;
-        color: #fff;
-        height: 0;
-        width: 100%;
-        bottom: 0;
-        background: rgba($purple, $alpha: .8);
-        border-radius: 5px;
-        visibility: hidden;
-        transition: .5s all ease;
+//     .img-overlay {
+//         position: absolute;
+//         color: #fff;
+//         height: 0;
+//         width: 100%;
+//         bottom: 0;
+//         background: rgba($purple, $alpha: .8);
+//         border-radius: 5px;
+//         visibility: hidden;
+//         transition: .5s all ease;
 
-        p {
-            font-size: 13px;
-        }
+//         p {
+//             font-size: 13px;
+//         }
 
-        .overlay-infos {
-            opacity: 0;
-            transition: .2s all ease;
-        }
+//         .overlay-infos {
+//             opacity: 0;
+//             transition: .2s all ease;
+//         }
+//     }
+
+//     &:hover .img-overlay {
+//         height: 100%;
+//         visibility: visible;
+//     }
+
+//     &:hover .overlay-infos {
+//         opacity: 1;
+//     }
+// }
+
+.explorecard {
+    min-height: 50vh;
+
+    .card-body {
+        opacity: 0;
+        background-color: lighten($purple, 20);
+        border-radius: 10px;
+        transition: .3s all ease;
     }
 
-    &:hover .img-overlay {
-        height: 100%;
-        visibility: visible;
-    }
-
-    &:hover .overlay-infos {
-        opacity: 1;
+    &:hover .card-body {
+        opacity: .9;
     }
 }
 
-// welcome msg
+@mixin card-bg() {
+    background-repeat: no-repeat;
+    background-size: cover;
+    @content;
+}
 
-@media only screen and (max-width:640px) {
-    .welcomeMsg {
-        height: 80vh;
-        overflow-y: auto;
-        padding-right: 10px;
-    }
+.card-1 {
+    background: url(../imgs/1-Gandhi-Ashram.jpg);
+    @include card-bg();
+}
+
+.card-2 {
+    background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
+    @include card-bg();
+    background-position-x: -5rem;
+}
+
+.card-3 {
+    background: url(../imgs/3-Atal-Bridge.jpg);
+    @include card-bg();
+}
+
+.card-4 {
+    background: url(../imgs/4-Sidi-sayyad.jpg);
+    @include card-bg();
+    background-position-x: -4rem;
+}
+
+.card-5 {
+    background: url(../imgs/5-bhadra-fort.jpg);
+    @include card-bg();
+}
+
+.card-6 {
+    background: url(../imgs/6-rani-sipri-masjid.jpg);
+    @include card-bg();
+}
+
+.card-7 {
+    background: url(../imgs/7-jagannath-temple-ahmedabad\ \(2\).jpg);
+    @include card-bg();
+}
+
+.card-8 {
+    background: url(../imgs/12-iscon2.jpg);
+    @include card-bg();
+    background-position-x: -4.5rem;
+}
+
+.card-9 {
+    background: url(../imgs/9-Riverfront-Park.jpg);
+    @include card-bg();
+}
+
+.card-10 {
+    background: url(../imgs/10-Kankaria.jpg);
+    @include card-bg();
+}
+
+.card-11 {
+    background: url(../imgs/11-dada-hari-ni-vav.jpg);
+    @include card-bg();
+    background-position-x: -4rem;
+}
+
+.card-12 {
+    background: url(../imgs/17-Aksardham.png);
+    @include card-bg();
 }
