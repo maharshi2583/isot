@@ -1,6 +1,16 @@
 @import 'variable';
 @import 'navbar';
 
+@font-face {
+    font-family: headingtext;
+    src: url(../fonts/Philosopher-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
 ::-webkit-scrollbar {
     width: 3px !important;
     height: 3px !important;
@@ -28,9 +38,12 @@ body {
     background-size: 32px 32px;
     background-position: 0 0, 16px 16px;
     background-attachment: fixed;
-    font-family: sans-serif;
+    font-family: poppins, sans-serif;
 }
 
+.headingtext {
+    font-family: headingtext;
+}
 
 .customshadow {
     box-shadow: 0px 5px 20px rgba(176, 195, 211, 0.5);
