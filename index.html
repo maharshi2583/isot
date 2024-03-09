@@ -10,6 +10,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
     <link rel="shortcut icon" href="imgs/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -46,6 +49,37 @@
 
     <!-- carousel -->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <div class="row d-flex justify-content-center align-items-center py-5 text-center slide1 main">
+                    <div class="col-md-5 col-12 text-white">
+                        <p>34<sup>th</sup></p>
+                        <h1 class="fw-bold">ISOT 2024</h1>
+                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="row d-flex justify-content-center align-items-center py-5 text-center slide2 main">
+                    <div class="col-md-5 col-12 text-white">
+                        <p>34<sup>th</sup></p>
+                        <h1 class="fw-bold">ISOT 2024</h1>
+                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="row d-flex justify-content-center align-items-center py-5 text-center slide3 main">
+                    <div class="col-md-5 col-12 text-white">
+                        <p>34<sup>th</sup></p>
+                        <h1 class="fw-bold">ISOT 2024</h1>
+                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -75,10 +109,10 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div> -->
 
-    <!-- welcome message -->
     <div class="container">
+        <!-- welcome message -->
         <div class="row justify-content-center my-5">
             <div class="col-12">
                 <h1 class="text-center fw-bold redtext mb-3">Welcome Message</h1>
@@ -140,6 +174,21 @@
                         <h5 class="orangetext mt-3">Warm regards,<br>
                             The Organizing Committee</h5>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- quick links -->
+        <div class="row justify-content-center my-5">
+            <div class="col-12">
+                <h1 class="redtext fw-bold text-center mb-3">Quick Links</h1>
+            </div>
+            <div class="col-12">
+                <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+                    <a href="#" class="btn btn-primary mx-3"><i class="fa-solid fa-user-plus me-2"></i>Registration</a>
+                    <a href="#" class="btn btn-primary mx-3 mt-3 mt-sm-0"><i
+                            class="fa-solid fa-book me-2"></i>Conference
+                        Brochures</a>
                 </div>
             </div>
         </div>
@@ -300,62 +349,21 @@
         <!-- organizing committee -->
         <div class="row justify-content-center my-5">
             <div class="col-12">
-                <h1 class="redtext fw-bold text-center mb-3">Organizing Committee</h1>
+                <h1 class="redtext fw-bold text-center mb-4">Organizing Committee</h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div class="col">
-                        <div class="aboutimg card h-100 bg-transparent">
-                            <div class="bg-white border-0 rounded">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center">
-                                        <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
-                                    </div>
-                                    <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
-                                    <p class="purpletext text-center">President ISOT</p>
+                        <div class="card h-100 doctorimg border-0 rounded">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
                                 </div>
+                                <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
+                                <p class="purpletext text-center">President ISOT</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="aboutimg card h-100 bg-transparent">
-                            <div class="bg-white border-0 rounded">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center">
-                                        <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
-                                    </div>
-                                    <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
-                                    <p class="purpletext text-center">President ISOT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="aboutimg card h-100 bg-transparent">
-                            <div class="bg-white border-0 rounded">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center">
-                                        <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
-                                    </div>
-                                    <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
-                                    <p class="purpletext text-center">President ISOT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="aboutimg card h-100 bg-transparent">
-                            <div class="bg-white border-0 rounded">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center">
-                                        <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
-                                    </div>
-                                    <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
-                                    <p class="purpletext text-center">President ISOT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col">
-                        <div class="card h-100 border-0 customshadow">
+                        <div class="card h-100 doctorimg border-0 customshadow">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor2.png" class="img-fluid mb-3" alt="">
@@ -366,18 +374,18 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 border-0 customshadow">
+                        <div class="card h-100 doctorimg border-0 customshadow">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor3.png" class="img-fluid mb-3" alt="">
                                 </div>
-                                <h5 class="redtext text-center fw-bold">Dr. VIvek Kute</h5>
+                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center">Organizing Secretary</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 border-0 customshadow">
+                        <div class="card h-100 doctorimg border-0 customshadow">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor4.png" class="img-fluid mb-3" alt="">
@@ -386,8 +394,75 @@
                                 <p class="purpletext text-center">Organizing Secretary</p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid">
+        <div class="row justify-content-center p-2 px-md-5 py-4 bg-white">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <img src="https://gujaratheart.com/wp-content/uploads/2023/07/Rx-Events-Logo.png" height="100"
+                            alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3 class="redtext fw-bold">Event Organizer</h3>
+                        <div class="purpletext">
+                            <p class="mb-1">Rx Events Pvt. Ltd</p>
+                            <p class="mb-1">401, Shyamak Complex,</p>
+                            <p class="mb-1">Opp. Sahjanand College, Ambawadi,</p>
+                            <p class="mb-1">Ahmedabad - 380015</p>
+                        </div>
+                        <div class="mt-4 d-flex flex-column">
+                            <a href="mailto:contact@rxevents.co.in" class="links text-decoration-none mb-2"><i
+                                    class="fa-regular fa-envelope"></i>
+                                contact@rxevents.co.in</a>
+                            <a href="tel:9099331371" class="links text-decoration-none mb-2"><i
+                                    class="fa-solid fa-phone"></i> +91
+                                9099331371</a>
+                            <a href="www.rxevents.co.in" class="links text-decoration-none mb-2"><i
+                                    class="fa-solid fa-globe"></i>
+                                www.rxevents.co.in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <img src="https://gujaratheart.com/wp-content/uploads/2023/07/Rx-Events-Logo.png" height="100"
+                            alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3 class="redtext fw-bold">Event Organizer</h3>
+                        <div class="purpletext">
+                            <p class="mb-1">Rx Events Pvt. Ltd</p>
+                            <p class="mb-1">401, Shyamak Complex,</p>
+                            <p class="mb-1">Opp. Sahjanand College, Ambawadi,</p>
+                            <p class="mb-1">Ahmedabad - 380015</p>
+                        </div>
+                        <div class="mt-4 d-flex flex-column">
+                            <a href="mailto:contact@rxevents.co.in" class="links text-decoration-none mb-2"><i
+                                    class="fa-regular fa-envelope"></i>
+                                contact@rxevents.co.in</a>
+                            <a href="tel:9099331371" class="links text-decoration-none mb-2"><i
+                                    class="fa-solid fa-phone"></i> +91 9099331371</a>
+                            <a href="www.rxevents.co.in" class="links text-decoration-none mb-2"><i
+                                    class="fa-solid fa-globe"></i> www.rxevents.co.in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mt-4 mb-0 redtext text-center user-select-none">Copyright © 2024 isot2024.com | Website
+                    Design & Managed
+                    by:
+                    [Tech-IT
+                    Solutions]</p>
             </div>
         </div>
     </div>

@@ -81,14 +81,15 @@ body {
 }
 
 // cornor for image
-
-.aboutimg {
+@mixin cornerborder() {
     --s: 50px;
     /* the size on the corner */
     --t: 5px;
     /* the thickness of the border */
     --g: 20px;
     /* the gap between the border and image */
+
+    @content;
 
     padding: calc(var(--g) + var(--t));
     outline: var(--t) solid $red;
@@ -98,6 +99,40 @@ body {
         conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)),
         linear-gradient(#000 0 0) content-box;
     transition: .4s;
+}
+
+.aboutimg {
+    @include cornerborder();
+}
+
+.doctorimg {
+    @include cornerborder() {
+        --t: 3px;
+        --g: 1px;
+    }
+}
+
+// carousel
+.main {
+    height: 80vh;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
+        url(../imgs/slide4.gif);
+    background-size: cover;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
+        url(../imgs/slide2.gif);
+    background-size: cover;
+}
+
+.slide3 {
+    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
+        url(../imgs/slide5.gif);
+    background-size: cover;
 }
 
 // host city
