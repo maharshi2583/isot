@@ -106,7 +106,7 @@
                             Conference. Let's come together to learn, share, and forge new connections in the
                             ever-evolving
                             field of radiology.</p> -->
-                        <a href="about.html" class="links">know more...</a>
+                        <a href="aboutus.php" class="links">know more...</a>
                         <h5 class="orangetext mt-3">Warm regards,<br>
                             The Organizing Committee</h5>
                     </div>
