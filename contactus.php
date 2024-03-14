@@ -22,6 +22,10 @@
         include 'header.php';
     ?>
 
+    <?php 
+        include 'comingsoon.html';
+    ?>
+
     <!-- footer -->
     <?php 
         include 'footer.php';
