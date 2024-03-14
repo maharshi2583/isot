@@ -28,28 +28,31 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
                 <div class="row d-flex justify-content-center align-items-center py-5 text-center slide1 main">
-                    <div class="col-md-5 col-12 text-white">
-                        <p>34<sup>th</sup></p>
+                    <div class="col-md-5 col-12 text-white carouselshape">
+                        <!-- <p>34<sup>th</sup></p>
                         <h1 class="fw-bold headingtext">ISOT 2024</h1>
-                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p>
+                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p> -->
+                        <img src="imgs/carousel.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
                 <div class="row d-flex justify-content-center align-items-center py-5 text-center slide2 main">
-                    <div class="col-md-5 col-12 text-white">
-                        <p>34<sup>th</sup></p>
+                    <div class="col-md-5 col-12 text-white carouselshape">
+                        <!-- <p>34<sup>th</sup></p>
                         <h1 class="fw-bold headingtext">ISOT 2024</h1>
-                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p>
+                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p> -->
+                        <img src="imgs/carousel.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
                 <div class="row d-flex justify-content-center align-items-center py-5 text-center slide3 main">
-                    <div class="col-md-5 col-12 text-white">
-                        <p>34<sup>th</sup></p>
+                    <div class="col-md-5 col-12 text-white carouselshape">
+                        <!-- <p>34<sup>th</sup></p>
                         <h1 class="fw-bold headingtext">ISOT 2024</h1>
-                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p>
+                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p> -->
+                        <img src="imgs/carousel.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -326,6 +329,51 @@
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
                                 <p class="purpletext text-center">Organizing Secretary</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- vanue -->
+        <div class="row justify-content-center my-5">
+            <div class="col-12">
+                <h1 class="redtext fw-bold text-center mb-4 headingtext">Ultimate Destination</h1>
+                <div class="row justify-content-around pt-3">
+                    <div class="col-md-6 col-lg-5 d-flex align-items-center">
+                        <div>
+                            <img src="https://image.wedmegood.com/resized/800X/uploads/member/405280/1610699884_DSC_7373.JPG"
+                                class="img-fluid doctorimg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 mt-4 mt-md-0 p-3">
+                        <div class="card px-3 py-4 border-0 customshadow">
+                            <h5 class="redtext fw-bold">THE FORUM CLUB O7</h5>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-location-dot redtext me-2 mt-1"></i>
+                                <p class="purpletext">The Forum,
+                                    Celebrations and Conventions,
+                                    Near Club O7, Off SP Ring Road, Club O7 Rd,
+                                    Shela, Ahmedabad, Gujarat 380058 </p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="fa-solid fa-plane redtext me-2 mt-1"></i>
+                                <div>
+                                    <p class="purpletext mb-0">From Ahmedabad Airport</p>
+                                    <span class="orangetext">25 KM (40 MINUTES)</span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-train redtext me-2 mt-1"></i>
+                                <div>
+                                    <p class="purpletext mb-0">From Ahmedabad Railway Station</p>
+                                    <span class="orangetext">17.6 KM (35 MINUTES)</span>
+                                </div>
+                            </div>
+                            <div class="mt-2 ms-2">
+                                <a href="https://maps.app.goo.gl/Wii7agsMUJSpNh5FA" target="_blanck" class="links">Visit
+                                    Map</a>
                             </div>
                         </div>
                     </div>

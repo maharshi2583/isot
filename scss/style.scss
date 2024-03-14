@@ -148,5 +148,9 @@ body {
     background-size: cover;
 }
 
+.carouselshape {
+    border-radius: 44% 56% 65% 35% / 48% 43% 57% 52%;
+}
+
 // host city
 @import 'hostcity';
