@@ -20,11 +20,62 @@
     <!-- navbar -->
     <?php 
         include 'header.php';
+        include 'eventbanner.html';
     ?>
 
-    <?php 
-        include 'comingsoon.html';
-    ?>
+    <div class="container">
+        <div class="row justify-content-center my-5">
+            <div class="col-12">
+                <h1 class="redtext fw-bold text-center mb-4 headingtext">Organizing Committee</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100 doctorimg border-0 rounded">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
+                                <p class="purpletext text-center">President ISOT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 doctorimg border-0 customshadow">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imgs/doctor2.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <h5 class="redtext text-center fw-bold">Dr. Manish Balwani</h5>
+                                <p class="purpletext text-center">Secretary ISOT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 doctorimg border-0 customshadow">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imgs/doctor3.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
+                                <p class="purpletext text-center">Organizing Secretary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 doctorimg border-0 customshadow">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imgs/doctor4.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
+                                <p class="purpletext text-center">Organizing Secretary</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- footer -->
     <?php 

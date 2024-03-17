@@ -14,6 +14,95 @@
   color: #803f99;
 }
 
+.explorecard {
+  min-height: 50vh;
+}
+.explorecard .card-body {
+  opacity: 0;
+  background-color: #b177c7;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+.explorecard:hover .card-body {
+  opacity: 0.9;
+}
+
+.card-1 {
+  background: url(../imgs/1-Gandhi-Ashram.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-2 {
+  background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -5rem;
+}
+
+.card-3 {
+  background: url(../imgs/3-Atal-Bridge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-4 {
+  background: url(../imgs/4-Sidi-sayyad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -4rem;
+}
+
+.card-5 {
+  background: url(../imgs/5-bhadra-fort.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-6 {
+  background: url(../imgs/6-rani-sipri-masjid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-7 {
+  background: url(../imgs/7-jagannath-temple-ahmedabad\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-8 {
+  background: url(../imgs/12-iscon2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -4.5rem;
+}
+
+.card-9 {
+  background: url(../imgs/9-Riverfront-Park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-10 {
+  background: url(../imgs/10-Kankaria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-11 {
+  background: url(../imgs/11-dada-hari-ni-vav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -4rem;
+}
+
+.card-12 {
+  background: url(../imgs/17-Aksardham.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @font-face {
   font-family: headingtext;
   src: url(../fonts/Philosopher-Bold.ttf);
@@ -160,91 +249,11 @@ body {
   background-repeat: no-repeat !important;
 }
 
-.explorecard {
-  min-height: 50vh;
+.form-control {
+  border: 0 !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0 !important;
 }
-.explorecard .card-body {
-  opacity: 0;
-  background-color: #b177c7;
-  border-radius: 10px;
-  transition: 0.3s all ease;
-}
-.explorecard:hover .card-body {
-  opacity: 0.9;
-}
-
-.card-1 {
-  background: url(../imgs/1-Gandhi-Ashram.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-2 {
-  background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -5rem;
-}
-
-.card-3 {
-  background: url(../imgs/3-Atal-Bridge.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-4 {
-  background: url(../imgs/4-Sidi-sayyad.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -4rem;
-}
-
-.card-5 {
-  background: url(../imgs/5-bhadra-fort.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-6 {
-  background: url(../imgs/6-rani-sipri-masjid.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-7 {
-  background: url(../imgs/7-jagannath-temple-ahmedabad\ \(2\).jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-8 {
-  background: url(../imgs/12-iscon2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -4.5rem;
-}
-
-.card-9 {
-  background: url(../imgs/9-Riverfront-Park.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-10 {
-  background: url(../imgs/10-Kankaria.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-11 {
-  background: url(../imgs/11-dada-hari-ni-vav.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -4rem;
-}
-
-.card-12 {
-  background: url(../imgs/17-Aksardham.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.form-control:focus, .form-control:active {
+  box-shadow: none !important;
 }/*# sourceMappingURL=style.css.map */

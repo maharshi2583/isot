@@ -3,7 +3,7 @@
     <div class="row justify-content-center p-2 px-md-5 py-4 bg-white">
         <div class="col-md-6">
             <div class="row">
-                <div class="col-md-3 d-flex justify-content-center">
+                <div class="col-md-3 d-flex justify-content-md-center">
                     <img src="imgs/sacretarial.png" height="120" alt="">
                 </div>
                 <div class="col-md-9">
@@ -31,7 +31,7 @@
         </div>
         <div class="col-md-6 mt-5 mt-md-0">
             <div class="row">
-                <div class="col-md-3 d-flex justify-content-center">
+                <div class="col-md-3 d-flex justify-content-md-center">
                     <img src="https://gujaratheart.com/wp-content/uploads/2023/07/Rx-Events-Logo.png" height="100"
                         class="mt-2" alt="">
                 </div>

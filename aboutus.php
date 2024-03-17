@@ -19,10 +19,11 @@
     <!-- navbar -->
     <?php 
         include 'header.php';
+        include 'eventbanner.html';
     ?>
 
     <div class="container">
-        <div class="row justify-content-center my-5">
+        <div class="row justify-content-center mt-4 mb-5">
             <div class="col-12">
                 <h1 class="text-center fw-bold redtext mb-3 headingtext">Welcome Message</h1>
                 <div class="col-12 card p-3 border-0 customshadow ">

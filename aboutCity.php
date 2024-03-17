@@ -16,6 +16,7 @@
     <!-- navbar -->
     <?php 
         include 'header.php';
+        include 'eventbanner.html';
     ?>
 
     <!-- about city -->

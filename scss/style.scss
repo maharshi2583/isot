@@ -1,5 +1,7 @@
 @import 'variable';
 @import 'navbar';
+// host city
+@import 'hostcity';
 
 @font-face {
     font-family: headingtext;
@@ -154,5 +156,13 @@ body {
     background-repeat: no-repeat !important;
 }
 
-// host city
-@import 'hostcity';
+.form-control {
+    border: 0 !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0 !important;
+
+    &:focus,
+    &:active {
+        box-shadow: none !important;
+    }
+}
