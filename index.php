@@ -1,5 +1,3 @@
-<?php ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -115,150 +113,212 @@
         <div class="row justify-content-center my-5">
             <div class="col-12">
                 <h1 class="redtext fw-bold text-center mb-3 headingtext">Important Dates</h1>
-                <div class="row row-cols-1 row-cols-lg-2 g-4">
-                    <div class="col px-3 px-sm-auto">
-                        <div class="card h-100 customshadow p-3 border-0">
-                            <div class="table-responsive">
-                                <table cellpadding="5" class="w-100">
-                                    <thead class="border-bottom">
-                                        <tr>
-                                            <th colspan="2">
-                                                <h4 class="redtext">Registration (International Delegate's)
-                                                </h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Early Bird</p>
-                                                <p class="mb-0 purpletext">1st Jan 2024 to 31st Mar 2024</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Discounted</p>
-                                                <p class="mb-0 purpletext">1st Apr 2024 to 31st Jul 2024</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Regular</p>
-                                                <p class="mb-0 purpletext">1st Aug 2024 to 31st Dec 2024</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Spot</p>
-                                                <p class="mb-0 purpletext">1st Jan 2025 to 26th Jan 2025</p>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <button class="btn btn-primary mt-3 ms-auto">Get Registered</button>
+                <!-- large device table -->
+                <div class="row justify-content-center d-none d-md-block">
+                    <div class="col-12 card border-0 customshadow customcard p-3">
+                        <div class="table-responsive">
+                            <table class="table table-bordered border-primary text-nowrap mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>CATEGORY</th>
+                                        <th>Early Bird
+                                            Till March 31 '24</th>
+                                        <th>Regular
+                                            Till May 31 '24</th>
+                                        <th>Advanced
+                                            Till July 31 '24</th>
+                                        <th>Spot
+                                            August 1 '24 Onwards</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ISOT Members</td>
+                                        <td>₹ 20000</td>
+                                        <td>₹ 22000</td>
+                                        <td>₹ 25000</td>
+                                        <td>₹ 27000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Non Members</td>
+                                        <td>₹ 22000</td>
+                                        <td>₹ 25000</td>
+                                        <td>₹ 27000</td>
+                                        <td>₹ 30000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PG Students</td>
+                                        <td>₹ 6000</td>
+                                        <td>₹ 7000</td>
+                                        <td>₹ 7500</td>
+                                        <td>₹ 8000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transplant Coordinators</td>
+                                        <td>₹ 2000</td>
+                                        <td>₹ 2200</td>
+                                        <td>₹ 2500</td>
+                                        <td>₹ 3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACCOMPANY</td>
+                                        <td>₹ 5000</td>
+                                        <td>₹ 6000</td>
+                                        <td>₹ 7500</td>
+                                        <td>₹ 8000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                    <div class="col px-3 px-sm-auto">
-                        <div class="card h-100 customshadow p-3 border-0">
+                </div>
+                <!-- small device table -->
+                <div class="row justify-content-center d-block d-md-none px-3">
+                    <div class="col-12 card border-0 customshadow customcard p-3">
+                        <div class="mb-4">
+                            <h2 class="fw-bold redtext headingtext">ISOT Members</h2>
                             <div class="table-responsive">
-                                <table cellpadding="5" class="w-100">
-                                    <thead class="border-bottom">
-                                        <tr>
-                                            <th colspan="2">
-                                                <h4 class="redtext">Registration (Indian Delegate's)</h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
+                                <table class="table table-bordered border-primary mb-0">
                                     <tbody>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Early Bird</p>
-                                                <p class="mb-0 purpletext">1st Jan 2024 to 31st Mar 2024</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Discounted</p>
-                                                <p class="mb-0 purpletext">1st Apr 2024 to 31st Jul 2024</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Regular</p>
-                                                <p class="mb-0 purpletext">1st Aug 2024 to 31st Dec 2024</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="border-bottom">
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Late</p>
-                                                <p class="mb-0 purpletext">1st Nov 2024 to 31st Dec 2024</p>
-                                            </td>
+                                        <tr>
+                                            <td>Early Bird
+                                                Till March 31 '24</td>
+                                            <td>₹ 20000</td>
                                         </tr>
                                         <tr>
-                                            <td class="py-2">
-                                                <div class="d-flex justify-content-center">
-                                                    <img src="https://aocr2025.org/assets/img/calendar.webp" height="50"
-                                                        alt="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <p class="mb-0 orangetext">Spot</p>
-                                                <p class="mb-0 purpletext">1st Jan 2025 to 26th Jan 2025</p>
-                                            </td>
+                                            <td>Regular
+                                                Till May 31 '24</td>
+                                            <td>₹ 22000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced
+                                                Till July 31 '24</td>
+                                            <td>₹ 25000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spot
+                                                August 1 '24 Onwards</td>
+                                            <td>₹ 27000</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <button class="btn btn-primary mt-3 ms-auto">Get Registered</button>
+                        </div>
+                        <div class="mb-4">
+                            <h2 class="fw-bold redtext headingtext">Non Members</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered border-primary mb-0">
+                                    <tbody>
+                                        <tr>
+                                            <td>Early Bird
+                                                Till March 31 '24</td>
+                                            <td>₹ 22000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Regular
+                                                Till May 31 '24</td>
+                                            <td>₹ 25000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced
+                                                Till July 31 '24</td>
+                                            <td>₹ 27000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spot
+                                                August 1 '24 Onwards</td>
+                                            <td>₹ 30000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h2 class="fw-bold redtext headingtext">PG Students</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered border-primary mb-0">
+                                    <tbody>
+                                        <tr>
+                                            <td>Early Bird
+                                                Till March 31 '24</td>
+                                            <td>₹ 6000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Regular
+                                                Till May 31 '24</td>
+                                            <td>₹ 7000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced
+                                                Till July 31 '24</td>
+                                            <td>₹ 7500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spot
+                                                August 1 '24 Onwards</td>
+                                            <td>₹ 8000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h2 class="fw-bold redtext headingtext">Transplant Coordinators</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered border-primary mb-0">
+                                    <tbody>
+                                        <tr>
+                                            <td>Early Bird
+                                                Till March 31 '24</td>
+                                            <td>₹ 2000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Regular
+                                                Till May 31 '24</td>
+                                            <td>₹ 2200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced
+                                                Till July 31 '24</td>
+                                            <td>₹ 2500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spot
+                                                August 1 '24 Onwards</td>
+                                            <td>₹ 3000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="fw-bold redtext headingtext">ACCOMPANY</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered border-primary mb-0">
+                                    <tbody>
+                                        <tr>
+                                            <td>Early Bird
+                                                Till March 31 '24</td>
+                                            <td>₹ 5000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Regular
+                                                Till May 31 '24</td>
+                                            <td>₹ 6000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced
+                                                Till July 31 '24</td>
+                                            <td>₹ 7500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spot
+                                                August 1 '24 Onwards</td>
+                                            <td>₹ 8000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
