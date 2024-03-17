@@ -148,8 +148,10 @@ body {
     background-size: cover;
 }
 
-.carouselshape {
-    border-radius: 44% 56% 65% 35% / 48% 43% 57% 52%;
+.customcard {
+    background-image: url('../imgs/cardbg.jpeg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
 // host city

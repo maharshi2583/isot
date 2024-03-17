@@ -88,24 +88,6 @@
                             As Ahmedabad prides itself on its blend of cultural legacy and academic excellence, the
                             conference will provide a unique pla orm for a endees to share pioneering advancements,
                             present research findings, and discuss the latest trends in organ transplanta on.</p>
-                        <!-- <p class="purpletext text-justify">
-                            Ahmedabad, known for its bustling energy and hospitable culture, will provide the perfect
-                            setting
-                            for a conference that
-                            seamlessly blends academic excellence with opportunities for networking and camaraderie.
-                            Join us
-                            for
-                            an unforgettable
-                            experience that combines the best of academic enrichment and the vibrant spirit of Chennai.
-                        </p>
-                        <p class="purpletext text-justify">We eagerly anticipate the opportunity to welcome you and your
-                            esteemed
-                            colleagues to the 77th
-                            Annual
-                            Radiology
-                            Conference. Let's come together to learn, share, and forge new connections in the
-                            ever-evolving
-                            field of radiology.</p> -->
                         <a href="aboutus.php" class="links">know more...</a>
                         <h5 class="orangetext mt-3">Warm regards,<br>
                             The Organizing Committee</h5>
