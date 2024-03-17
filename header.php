@@ -1,7 +1,7 @@
 <?php ?>
-<nav class="navbar navbar-expand-lg bg-white customshadow py-0">
+<nav class="navbar navbar-expand-lg bg-white customshadow customcard py-0">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="imgs/logo.jpg" class="py-0" height="80" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="imgs/logo.png" class="py-0" height="80" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

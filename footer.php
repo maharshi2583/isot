@@ -1,6 +1,6 @@
 <?php ?>
 <div class="container-fluid">
-    <div class="row justify-content-center p-2 px-md-5 py-4 bg-white">
+    <div class="row justify-content-center p-2 px-md-5 py-4 customcard">
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-3 d-flex justify-content-md-center">

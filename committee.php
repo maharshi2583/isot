@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
-    <link rel="shortcut icon" href="imgs/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/logofavicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +29,7 @@
                 <h1 class="redtext fw-bold text-center mb-4 headingtext">Organizing Committee</h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div class="col">
-                        <div class="card h-100 doctorimg border-0 rounded">
+                        <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor1.png" class="img-fluid mb-3" alt="">
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 doctorimg border-0 customshadow">
+                        <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor2.png" class="img-fluid mb-3" alt="">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 doctorimg border-0 customshadow">
+                        <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor3.png" class="img-fluid mb-3" alt="">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 doctorimg border-0 customshadow">
+                        <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
                                     <img src="imgs/doctor4.png" class="img-fluid mb-3" alt="">

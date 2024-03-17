@@ -156,13 +156,22 @@ body {
     background-repeat: no-repeat !important;
 }
 
-.form-control {
+input,
+textarea {
     border: 0 !important;
-    border-bottom: 1px solid black !important;
+    border-bottom: 1px solid $purple !important;
     border-radius: 0 !important;
+    background: transparent !important;
+}
 
-    &:focus,
-    &:active {
-        box-shadow: none !important;
-    }
+input:focus,
+textarea:focus {
+    // box-shadow: auto auto $activelink !important;
+    border-color: $red !important;
+    box-shadow: none !important;
+}
+
+label::after,
+label::after {
+    background: transparent !important;
 }

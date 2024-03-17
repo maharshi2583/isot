@@ -249,11 +249,21 @@ body {
   background-repeat: no-repeat !important;
 }
 
-.form-control {
+input,
+textarea {
   border: 0 !important;
-  border-bottom: 1px solid black !important;
+  border-bottom: 1px solid #803f99 !important;
   border-radius: 0 !important;
+  background: transparent !important;
 }
-.form-control:focus, .form-control:active {
+
+input:focus,
+textarea:focus {
+  border-color: #bf1e2e !important;
   box-shadow: none !important;
+}
+
+label::after,
+label::after {
+  background: transparent !important;
 }/*# sourceMappingURL=style.css.map */

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISOT 2024</title>
     <!-- bootstrap css -->
+    <link rel="shortcut icon" href="imgs/logofavicon.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
@@ -25,7 +26,7 @@
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <img src="imgs/about.webp" class="img-fluid aboutimg" alt="">
             </div>
-            <div class="col-lg-6 card border-0 customshadow p-3 p-sm-5 mt-5 mt-lg-0">
+            <div class="col-lg-6 card border-0 customshadow customcard p-3 p-sm-5 mt-5 mt-lg-0">
                 <h2 class="mb-4 fw-bold">World's First Heritage City - <span class="redtext">Ahmedabad</span></h2>
                 <p class="purpletext text-justify">Ahmedabad, located in the western Indian state of Gujarat, is a city
                     rich in
