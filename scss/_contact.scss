@@ -1,0 +1,47 @@
+// contact page
+
+input,
+textarea {
+    border: 0 !important;
+    border-bottom: 1px solid $purple !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+input:focus,
+textarea:focus {
+    border-color: $red !important;
+    box-shadow: none !important;
+}
+
+label::after,
+label::after {
+    background: transparent !important;
+}
+
+// home page table
+.table-responsive {
+    .border-primary {
+        border-color: $purple !important;
+    }
+
+    .table {
+
+        th,
+        td {
+            background: transparent !important;
+        }
+
+        th {
+            color: $red;
+            font-family: headingtext;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        td {
+            color: $purple;
+            font-family: poppins;
+        }
+    }
+}
