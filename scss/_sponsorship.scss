@@ -4,6 +4,10 @@
     padding: 10px;
     padding-right: 1.7rem;
 
+    ul {
+        color: $color;
+        list-style: circle;
+    }
 
     legend {
         float: none;
@@ -22,7 +26,7 @@
     @include fieldset($purple);
 }
 
-.redfieldset {
+.orangefieldset {
     @include fieldset($orange);
 
     legend {
@@ -33,7 +37,7 @@
 @media only screen and (max-width:400px) {
 
     .purplefieldset,
-    .redfieldset {
+    .orangefieldset {
         padding-right: 10px;
 
         legend {

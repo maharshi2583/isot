@@ -292,6 +292,10 @@ label::after {
   padding: 10px;
   padding-right: 1.7rem;
 }
+.purplefieldset ul {
+  color: #803f99;
+  list-style: circle;
+}
 .purplefieldset legend {
   float: none;
   width: auto;
@@ -302,13 +306,17 @@ label::after {
   margin: 0 1rem;
 }
 
-.redfieldset {
+.orangefieldset {
   border: 1px solid #f1592a;
   border-radius: 5px;
   padding: 10px;
   padding-right: 1.7rem;
 }
-.redfieldset legend {
+.orangefieldset ul {
+  color: #f1592a;
+  list-style: circle;
+}
+.orangefieldset legend {
   float: none;
   width: auto;
   padding: 5px 20px;
@@ -317,17 +325,17 @@ label::after {
   color: #fff;
   margin: 0 1rem;
 }
-.redfieldset legend {
+.orangefieldset legend {
   text-align: right;
 }
 
 @media only screen and (max-width: 400px) {
   .purplefieldset,
-  .redfieldset {
+  .orangefieldset {
     padding-right: 10px;
   }
   .purplefieldset legend,
-  .redfieldset legend {
+  .orangefieldset legend {
     text-align: center;
     margin: 0;
   }
