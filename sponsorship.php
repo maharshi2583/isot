@@ -31,6 +31,9 @@
                     <legend class="fw-bold headingtext">
                         <h4 class="mb-0">Titanium Sponsorship</h4>
                     </legend>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea reiciendis quaerat dicta. Fuga
+                        officia et quisquam earum voluptates praesentium corrupti sed neque impedit. Sequi natus fugit
+                        consectetur vel iste adipisci!</p>
                 </fieldset>
             </div>
             <div class="col-lg-10 card border-0 customshadow customcard p-3 mb-4">
@@ -38,6 +41,9 @@
                     <legend class="fw-bold headingtext">
                         <h4 class="mb-0">Titanium Sponsorship</h4>
                     </legend>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea reiciendis quaerat dicta. Fuga
+                        officia et quisquam earum voluptates praesentium corrupti sed neque impedit. Sequi natus fugit
+                        consectetur vel iste adipisci!</p>
                 </fieldset>
             </div>
         </div>

@@ -290,6 +290,7 @@ label::after {
   border: 1px solid #803f99;
   border-radius: 5px;
   padding: 10px;
+  padding-right: 1.7rem;
 }
 .purplefieldset legend {
   float: none;
@@ -305,6 +306,7 @@ label::after {
   border: 1px solid #f1592a;
   border-radius: 5px;
   padding: 10px;
+  padding-right: 1.7rem;
 }
 .redfieldset legend {
   float: none;
@@ -314,4 +316,19 @@ label::after {
   border-radius: 5px;
   color: #fff;
   margin: 0 1rem;
+}
+.redfieldset legend {
+  text-align: right;
+}
+
+@media only screen and (max-width: 400px) {
+  .purplefieldset,
+  .redfieldset {
+    padding-right: 10px;
+  }
+  .purplefieldset legend,
+  .redfieldset legend {
+    text-align: center;
+    margin: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

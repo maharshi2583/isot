@@ -2,6 +2,8 @@
     border: 1px solid $color;
     border-radius: 5px;
     padding: 10px;
+    padding-right: 1.7rem;
+
 
     legend {
         float: none;
@@ -11,9 +13,9 @@
         border-radius: 5px;
         color: #fff;
         margin: 0 1rem;
+        @content;
     }
 
-    @content;
 }
 
 .purplefieldset {
@@ -22,4 +24,21 @@
 
 .redfieldset {
     @include fieldset($orange);
+
+    legend {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .purplefieldset,
+    .redfieldset {
+        padding-right: 10px;
+
+        legend {
+            text-align: center;
+            margin: 0;
+        }
+    }
 }
