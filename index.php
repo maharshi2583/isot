@@ -176,7 +176,7 @@
                 <div class="row justify-content-center d-block d-md-none px-3">
                     <div class="col-12 card border-0 customshadow customcard p-3">
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext">ISOT Members</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">ISOT Members</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext">Non Members</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">Non Members</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
@@ -234,7 +234,7 @@
                             </div>
                         </div>
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext">PG Students</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">PG Students</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
@@ -263,7 +263,7 @@
                             </div>
                         </div>
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext">Transplant Coordinators</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">Transplant Coordinators</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
@@ -292,7 +292,7 @@
                             </div>
                         </div>
                         <div>
-                            <h2 class="fw-bold redtext headingtext">ACCOMPANY</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">ACCOMPANY</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>

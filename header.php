@@ -18,6 +18,9 @@
                     <a class="nav-link fw-bold" href="committee.php">Organizing Committee</a>
                 </li>
                 <li class="nav-item mx-lg-3">
+                    <a class="nav-link fw-bold" href="sponsorship.php">Sponsorship</a>
+                </li>
+                <li class="nav-item mx-lg-3">
                     <a class="nav-link fw-bold" href="aboutCity.php">Host City</a>
                 </li>
                 <li class="nav-item mx-lg-3">

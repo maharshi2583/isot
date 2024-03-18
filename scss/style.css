@@ -14,95 +14,6 @@
   color: #803f99;
 }
 
-.explorecard {
-  min-height: 50vh;
-}
-.explorecard .card-body {
-  opacity: 0;
-  background-color: #b177c7;
-  border-radius: 10px;
-  transition: 0.3s all ease;
-}
-.explorecard:hover .card-body {
-  opacity: 0.9;
-}
-
-.card-1 {
-  background: url(../imgs/1-Gandhi-Ashram.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-2 {
-  background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -5rem;
-}
-
-.card-3 {
-  background: url(../imgs/3-Atal-Bridge.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-4 {
-  background: url(../imgs/4-Sidi-sayyad.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -4rem;
-}
-
-.card-5 {
-  background: url(../imgs/5-bhadra-fort.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-6 {
-  background: url(../imgs/6-rani-sipri-masjid.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-7 {
-  background: url(../imgs/7-jagannath-temple-ahmedabad\ \(2\).jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-8 {
-  background: url(../imgs/12-iscon2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -4.5rem;
-}
-
-.card-9 {
-  background: url(../imgs/9-Riverfront-Park.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-10 {
-  background: url(../imgs/10-Kankaria.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-11 {
-  background: url(../imgs/11-dada-hari-ni-vav.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -4rem;
-}
-
-.card-12 {
-  background: url(../imgs/17-Aksardham.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @font-face {
   font-family: headingtext;
   src: url(../fonts/Philosopher-Bold.ttf);
@@ -249,6 +160,95 @@ body {
   background-size: cover;
 }
 
+.explorecard {
+  min-height: 50vh;
+}
+.explorecard .card-body {
+  opacity: 0;
+  background-color: #b177c7;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+.explorecard:hover .card-body {
+  opacity: 0.9;
+}
+
+.card-1 {
+  background: url(../imgs/1-Gandhi-Ashram.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-2 {
+  background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -5rem;
+}
+
+.card-3 {
+  background: url(../imgs/3-Atal-Bridge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-4 {
+  background: url(../imgs/4-Sidi-sayyad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -4rem;
+}
+
+.card-5 {
+  background: url(../imgs/5-bhadra-fort.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-6 {
+  background: url(../imgs/6-rani-sipri-masjid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-7 {
+  background: url(../imgs/7-jagannath-temple-ahmedabad\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-8 {
+  background: url(../imgs/12-iscon2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -4.5rem;
+}
+
+.card-9 {
+  background: url(../imgs/9-Riverfront-Park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-10 {
+  background: url(../imgs/10-Kankaria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-11 {
+  background: url(../imgs/11-dada-hari-ni-vav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -4rem;
+}
+
+.card-12 {
+  background: url(../imgs/17-Aksardham.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 input,
 textarea {
   border: 0 !important;
@@ -284,4 +284,34 @@ label::after {
 .table-responsive .table td {
   color: #803f99;
   font-family: poppins;
+}
+
+.purplefieldset {
+  border: 1px solid #803f99;
+  border-radius: 5px;
+  padding: 10px;
+}
+.purplefieldset legend {
+  float: none;
+  width: auto;
+  padding: 5px 20px;
+  background-color: #803f99;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.redfieldset {
+  border: 1px solid #f1592a;
+  border-radius: 5px;
+  padding: 10px;
+}
+.redfieldset legend {
+  float: none;
+  width: auto;
+  padding: 5px 20px;
+  background-color: #f1592a;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 1rem;
 }/*# sourceMappingURL=style.css.map */
