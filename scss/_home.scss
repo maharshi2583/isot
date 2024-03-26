@@ -1,12 +1,13 @@
 // carousel
 .main {
-    height: 87vh;
+    height: calc(100vh - 90px)
 }
 
 .slide1 {
-    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
-        url(../imgs/slide4.gif);
+    background: linear-gradient(rgba(11, 11, 11, .9), rgba(11, 11, 11, .9)),
+        url(../imgs/slide2.gif);
     background-size: cover;
+    background-position: center center;
 }
 
 .slide2 {

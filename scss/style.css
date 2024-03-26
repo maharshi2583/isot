@@ -141,13 +141,32 @@ body {
   transition: 0.4s;
 }
 
+.heroheader {
+  --s: 50px;
+  /* the size on the corner */
+  --t: 5px;
+  /* the thickness of the border */
+  --g: 20px;
+  /* the gap between the border and image */
+  --s: 30px;
+  outline-color: #f1592a !important;
+  padding: calc(var(--g) + var(--t));
+  outline: var(--t) solid #bf1e2e;
+  /* the color here */
+  outline-offset: calc(-1 * var(--t));
+  -webkit-mask: conic-gradient(at var(--s) var(--s), rgba(0, 0, 0, 0) 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)), linear-gradient(#000 0 0) content-box;
+          mask: conic-gradient(at var(--s) var(--s), rgba(0, 0, 0, 0) 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)), linear-gradient(#000 0 0) content-box;
+  transition: 0.4s;
+}
+
 .main {
-  height: 87vh;
+  height: calc(100vh - 90px);
 }
 
 .slide1 {
-  background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(11, 11, 11, 0.7)), url(../imgs/slide4.gif);
+  background: linear-gradient(rgba(11, 11, 11, 0.9), rgba(11, 11, 11, 0.9)), url(../imgs/slide2.gif);
   background-size: cover;
+  background-position: center center;
 }
 
 .slide2 {
@@ -177,76 +196,96 @@ body {
   background: url(../imgs/1-Gandhi-Ashram.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-2 {
   background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -5rem;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-3 {
   background: url(../imgs/3-Atal-Bridge.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-4 {
   background: url(../imgs/4-Sidi-sayyad.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -4rem;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-5 {
   background: url(../imgs/5-bhadra-fort.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-6 {
   background: url(../imgs/6-rani-sipri-masjid.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-7 {
   background: url(../imgs/7-jagannath-temple-ahmedabad\ \(2\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-8 {
   background: url(../imgs/12-iscon2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -4.5rem;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-9 {
   background: url(../imgs/9-Riverfront-Park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-10 {
   background: url(../imgs/10-Kankaria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-11 {
   background: url(../imgs/11-dada-hari-ni-vav.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -4rem;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .card-12 {
   background: url(../imgs/17-Aksardham.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  cursor: pointer;
 }
 
 input,

@@ -8,22 +8,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item mx-lg-3">
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="index.php">Home</a>
                 </li>
-                <li class="nav-item mx-lg-3">
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="aboutus.php">About Us</a>
                 </li>
-                <li class="nav-item mx-lg-3">
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="committee.php">Organizing Committee</a>
                 </li>
-                <li class="nav-item mx-lg-3">
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="sponsorship.php">Sponsorship</a>
                 </li>
-                <li class="nav-item mx-lg-3">
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="aboutCity.php">Host City</a>
                 </li>
-                <li class="nav-item mx-lg-3">
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="contactus.php">Contact Us</a>
                 </li>
             </ul>

@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 </head>
 
 <body>
@@ -30,16 +34,18 @@
                         <!-- <p>34<sup>th</sup></p>
                         <h1 class="fw-bold headingtext">ISOT 2024</h1>
                         <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p> -->
-                        <img src="imgs/carousel.png" class="img-fluid" alt="">
+                        <!-- <img src="imgs/carousel.png" class="img-fluid" alt=""> -->
+                        <h4>34<sup>th</sup></h4>
+                        <div class="heroheader m-3 my-4">
+                            <h1 class="headingtext orangetext fw-bold"><span class="typing"></span></h1>
+                        </div>
+                        <h4 class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</h4>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <!-- <div class="carousel-item" data-bs-interval="3000">
                 <div class="row d-flex justify-content-center align-items-center py-5 text-center slide2 main">
                     <div class="col-md-5 col-12 text-white carouselshape">
-                        <!-- <p>34<sup>th</sup></p>
-                        <h1 class="fw-bold headingtext">ISOT 2024</h1>
-                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p> -->
                         <img src="imgs/carousel.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -47,13 +53,10 @@
             <div class="carousel-item" data-bs-interval="3000">
                 <div class="row d-flex justify-content-center align-items-center py-5 text-center slide3 main">
                     <div class="col-md-5 col-12 text-white carouselshape">
-                        <!-- <p>34<sup>th</sup></p>
-                        <h1 class="fw-bold headingtext">ISOT 2024</h1>
-                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORCAN TRANSPLANT</p> -->
                         <img src="imgs/carousel.png" class="img-fluid" alt="">
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -122,13 +125,13 @@
                                     <tr>
                                         <th>CATEGORY</th>
                                         <th>Early Bird
-                                            Till March 31 '24</th>
+                                            Till April 30 '24</th>
                                         <th>Regular
-                                            Till May 31 '24</th>
+                                            Till June 30 '24</th>
                                         <th>Advanced
-                                            Till July 31 '24</th>
+                                            Till September 30 '24</th>
                                         <th>Spot
-                                            August 1 '24 Onwards</th>
+                                            October 1 '24 Onwards</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -182,22 +185,22 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till March 31 '24</td>
+                                                Till April 30 '24</td>
                                             <td>₹ 20000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till May 31 '24</td>
+                                                Till June 30 '24</td>
                                             <td>₹ 22000</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till July 31 '24</td>
+                                                Till September 30 '24</td>
                                             <td>₹ 25000</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
-                                                August 1 '24 Onwards</td>
+                                                October 1 '24 Onwards</td>
                                             <td>₹ 27000</td>
                                         </tr>
                                     </tbody>
@@ -211,22 +214,22 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till March 31 '24</td>
+                                                Till April 30 '24</td>
                                             <td>₹ 22000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till May 31 '24</td>
+                                                Till June 30 '24</td>
                                             <td>₹ 25000</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till July 31 '24</td>
+                                                Till September 30 '24</td>
                                             <td>₹ 27000</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
-                                                August 1 '24 Onwards</td>
+                                                October 1 '24 Onwards</td>
                                             <td>₹ 30000</td>
                                         </tr>
                                     </tbody>
@@ -240,22 +243,22 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till March 31 '24</td>
+                                                Till April 30 '24</td>
                                             <td>₹ 6000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till May 31 '24</td>
+                                                Till June 30 '24</td>
                                             <td>₹ 7000</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till July 31 '24</td>
+                                                Till September 30 '24</td>
                                             <td>₹ 7500</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
-                                                August 1 '24 Onwards</td>
+                                                October 1 '24 Onwards</td>
                                             <td>₹ 8000</td>
                                         </tr>
                                     </tbody>
@@ -269,22 +272,22 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till March 31 '24</td>
+                                                Till April 30 '24</td>
                                             <td>₹ 2000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till May 31 '24</td>
+                                                Till June 30 '24</td>
                                             <td>₹ 2200</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till July 31 '24</td>
+                                                Till September 30 '24</td>
                                             <td>₹ 2500</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
-                                                August 1 '24 Onwards</td>
+                                                October 1 '24 Onwards</td>
                                             <td>₹ 3000</td>
                                         </tr>
                                     </tbody>
@@ -298,22 +301,22 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till March 31 '24</td>
+                                                Till April 30 '24</td>
                                             <td>₹ 5000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till May 31 '24</td>
+                                                Till June 30 '24</td>
                                             <td>₹ 6000</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till July 31 '24</td>
+                                                Till September 30 '24</td>
                                             <td>₹ 7500</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
-                                                August 1 '24 Onwards</td>
+                                                October 1 '24 Onwards</td>
                                             <td>₹ 8000</td>
                                         </tr>
                                     </tbody>
@@ -432,10 +435,19 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
+
+    <script>
+    var typed = new Typed(".typing", {
+        strings: ["ISOT 2024"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+    });
+    </script>
 </body>
 
 </html>

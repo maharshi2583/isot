@@ -16,6 +16,8 @@
 @mixin card-bg() {
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    cursor: pointer;
     @content;
 }
 
@@ -27,7 +29,6 @@
 .card-2 {
     background: url(../imgs/2-Hutheesing-Jain-Temple.jpg);
     @include card-bg();
-    background-position-x: -5rem;
 }
 
 .card-3 {
@@ -38,7 +39,6 @@
 .card-4 {
     background: url(../imgs/4-Sidi-sayyad.jpg);
     @include card-bg();
-    background-position-x: -4rem;
 }
 
 .card-5 {
@@ -59,7 +59,6 @@
 .card-8 {
     background: url(../imgs/12-iscon2.jpg);
     @include card-bg();
-    background-position-x: -4.5rem;
 }
 
 .card-9 {
@@ -75,7 +74,6 @@
 .card-11 {
     background: url(../imgs/11-dada-hari-ni-vav.jpg);
     @include card-bg();
-    background-position-x: -4rem;
 }
 
 .card-12 {
