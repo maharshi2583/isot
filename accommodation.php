@@ -68,68 +68,72 @@
                     </div>
                 </div>
                 <!-- small device table -->
-                <!-- <div class="row justify-content-center d-block d-md-none px-3">
+                <div class="row justify-content-center d-block d-md-none px-3">
                     <div class="col-12 card border-0 customshadow customcard p-3">
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext text-center">ISOT Members</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">SINGLE OCCUPANCY <span
+                                    class="redtext">*(RATE PER
+                                    NIGHT)</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
                                                 Till April 30 '24</td>
-                                            <td>₹ 20000</td>
+                                            <td>₹ 11000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
                                                 Till June 30 '24</td>
-                                            <td>₹ 22000</td>
+                                            <td>₹ 12500</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
                                                 Till September 30 '24</td>
-                                            <td>₹ 25000</td>
+                                            <td>₹ 18500</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
                                                 October 1 '24 Onwards</td>
-                                            <td>₹ 27000</td>
+                                            <td class="text-center">-</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext text-center">Non Members</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">DOUBLE OCCUPANCY <span
+                                    class="redtext">*(RATE PER
+                                    NIGHT)</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
                                                 Till April 30 '24</td>
-                                            <td>₹ 22000</td>
+                                            <td>₹ 14000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
                                                 Till June 30 '24</td>
-                                            <td>₹ 25000</td>
+                                            <td>₹ 15500</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
                                                 Till September 30 '24</td>
-                                            <td>₹ 27000</td>
+                                            <td>₹ 21500</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
                                                 October 1 '24 Onwards</td>
-                                            <td>₹ 30000</td>
+                                            <td class="text-center">-</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -140,10 +144,10 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
 
 </html>

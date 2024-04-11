@@ -21,6 +21,9 @@
                     <a class="nav-link fw-bold" href="sponsorship.php">Sponsorship</a>
                 </li>
                 <li class="nav-item mx-lg-2">
+                    <a class="nav-link fw-bold" href="accommodation.php">Accommodation</a>
+                </li>
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="aboutCity.php">Host City</a>
                 </li>
                 <li class="nav-item mx-lg-2">
