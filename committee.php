@@ -33,7 +33,7 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body pt-2">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor1.png" class="img-fluid mb-4" alt="">
+                                    <img src="imgs/doctor1.png" class="mb-4" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
                                 <p class="purpletext text-center">President ISOT</p>
@@ -222,10 +222,10 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
 
 </html>

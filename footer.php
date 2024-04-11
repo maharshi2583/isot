@@ -19,9 +19,9 @@
                         <a href="mailto:dr.jdshrimali@gmail.com" class="links text-decoration-none mb-2"><i
                                 class="fa-regular fa-envelope"></i>
                             dr.jdshrimali@gmail.com</a>
-                        <a href="tel:9099921224" class="links text-decoration-none mb-2"><i
+                        <a href="tel:9099331357" class="links text-decoration-none mb-2"><i
                                 class="fa-solid fa-phone"></i> +91
-                            9099921224</a>
+                            9099331357</a>
                         <!-- <a href="https://rxevents.co.in/" class="links text-decoration-none mb-2"><i
                                     class="fa-solid fa-globe"></i>
                                 www.rxevents.co.in</a> -->

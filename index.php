@@ -30,16 +30,16 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
                 <div class="row d-flex justify-content-center align-items-center py-5 text-center slide1 main">
-                    <div class="col-md-5 col-12 text-white carouselshape">
+                    <div class="col-md-9 col-lg-7 col-xl-5 col-12 text-white carouselshape">
                         <!-- <p>34<sup>th</sup></p>
                         <h1 class="fw-bold headingtext">ISOT 2024</h1>
                         <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORGAN TRANSPLANT</p> -->
                         <!-- <img src="imgs/carousel.png" class="img-fluid" alt=""> -->
-                        <h4>34<sup>th</sup></h4>
-                        <div class="heroheader m-3 my-4">
-                            <h1 class="headingtext orangetext fw-bold"><span class="typing"></span></h1>
+                        <h4 class="hero34">34<sup>th</sup></h4>
+                        <div class="m-3 my-4">
+                            <h1 class="headingtext orangetext fw-bold heroheader"><span class="typing"></span></h1>
                         </div>
-                        <h4 class="mb-3 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORGAN TRANSPLANT</h4>
+                        <h4 class="mb-4 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORGAN TRANSPLANT</h4>
                         <h4 class="mb-0 px-2"><i class="fa-solid fa-calendar-days me-2"></i> 17<sup>th</sup> to
                             20<sup>th</sup> October, 2024</h4>
                     </div>
@@ -154,24 +154,24 @@
                                     </tr>
                                     <tr>
                                         <td>PG Students</td>
-                                        <td>₹ 6000</td>
-                                        <td>₹ 7000</td>
-                                        <td>₹ 7500</td>
-                                        <td>₹ 8000</td>
+                                        <td>₹ 10000</td>
+                                        <td>₹ 11000</td>
+                                        <td>₹ 12500</td>
+                                        <td>₹ 13500</td>
                                     </tr>
                                     <tr>
-                                        <td>Transplant Coordinators</td>
-                                        <td>₹ 2000</td>
-                                        <td>₹ 2200</td>
-                                        <td>₹ 2500</td>
-                                        <td>₹ 3000</td>
+                                        <td>International Delegate</td>
+                                        <td>$ 300</td>
+                                        <td>$ 350</td>
+                                        <td>$ 370</td>
+                                        <td>$ 400</td>
                                     </tr>
                                     <tr>
-                                        <td>ACCOMPANY</td>
-                                        <td>₹ 5000</td>
-                                        <td>₹ 6000</td>
-                                        <td>₹ 7500</td>
-                                        <td>₹ 8000</td>
+                                        <td>Accompany Person</td>
+                                        <td>₹ 10000</td>
+                                        <td>₹ 12000</td>
+                                        <td>₹ 14000</td>
+                                        <td>₹ 16000</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -247,80 +247,80 @@
                                         <tr>
                                             <td>Early Bird
                                                 Till April 30 '24</td>
-                                            <td>₹ 6000</td>
+                                            <td>₹ 10000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
                                                 Till June 30 '24</td>
-                                            <td>₹ 7000</td>
+                                            <td>₹ 12000</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
                                                 Till September 30 '24</td>
-                                            <td>₹ 7500</td>
+                                            <td>₹ 12500</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
                                                 October 1 '24 Onwards</td>
-                                            <td>₹ 8000</td>
+                                            <td>₹ 13500</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="mb-4">
-                            <h2 class="fw-bold redtext headingtext text-center">Transplant Coordinators</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">International Delegate</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
                                                 Till April 30 '24</td>
-                                            <td>₹ 2000</td>
+                                            <td>$ 300</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
                                                 Till June 30 '24</td>
-                                            <td>₹ 2200</td>
+                                            <td>$ 350</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
                                                 Till September 30 '24</td>
-                                            <td>₹ 2500</td>
+                                            <td>$ 370</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
                                                 October 1 '24 Onwards</td>
-                                            <td>₹ 3000</td>
+                                            <td>$ 400</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div>
-                            <h2 class="fw-bold redtext headingtext text-center">ACCOMPANY</h2>
+                            <h2 class="fw-bold redtext headingtext text-center">Accompany Person</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
                                                 Till April 30 '24</td>
-                                            <td>₹ 5000</td>
+                                            <td>₹ 10000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
                                                 Till June 30 '24</td>
-                                            <td>₹ 6000</td>
+                                            <td>₹ 12000</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
                                                 Till September 30 '24</td>
-                                            <td>₹ 7500</td>
+                                            <td>₹ 14000</td>
                                         </tr>
                                         <tr>
                                             <td>Spot
                                                 October 1 '24 Onwards</td>
-                                            <td>₹ 8000</td>
+                                            <td>₹ 16000</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -340,7 +340,7 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body pt-2">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor1.png" class="img-fluid mb-4" alt="">
+                                    <img src="imgs/doctor1.png" class="mb-4" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Aneesh Srivastava</h5>
                                 <p class="purpletext text-center">President ISOT</p>
@@ -362,7 +362,7 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body pt-0">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="img-fluid mb-4" alt="">
+                                    <img src="imgs/doctor3.png" class="mb-4" width="195" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
@@ -438,18 +438,18 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
 
     <script>
-        var typed = new Typed(".typing", {
-            strings: ["ISOT 2024"],
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true,
-        });
+    var typed = new Typed(".typing", {
+        strings: ["ISOT 2024"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+    });
     </script>
 </body>
 

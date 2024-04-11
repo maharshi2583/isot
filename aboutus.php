@@ -63,14 +63,14 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-4 col-lg-3">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="img-fluid mb-3" alt="">
+                                    <img src="imgs/doctor3.png" class="mb-3" width="195" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center">Organizing Secretary</p>
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor4.png" class="img-fluid mb-3" alt="">
+                                    <img src="imgs/Jigar_Shrimali.png" class="mb-3" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
                                 <p class="purpletext text-center">Organizing Secretary</p>

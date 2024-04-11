@@ -142,30 +142,12 @@ body {
   transition: 0.4s;
 }
 
-.heroheader {
-  --s: 50px;
-  /* the size on the corner */
-  --t: 5px;
-  /* the thickness of the border */
-  --g: 20px;
-  /* the gap between the border and image */
-  --s: 30px;
-  outline-color: #f1592a !important;
-  padding: calc(var(--g) + var(--t));
-  outline: var(--t) solid #bf1e2e;
-  /* the color here */
-  outline-offset: calc(-1 * var(--t));
-  -webkit-mask: conic-gradient(at var(--s) var(--s), rgba(0, 0, 0, 0) 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)), linear-gradient(#000 0 0) content-box;
-          mask: conic-gradient(at var(--s) var(--s), rgba(0, 0, 0, 0) 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)), linear-gradient(#000 0 0) content-box;
-  transition: 0.4s;
-}
-
 .main {
   height: calc(100vh - 90px);
 }
 
 .slide1 {
-  background: linear-gradient(rgba(11, 11, 11, 0.9), rgba(11, 11, 11, 0.9)), url(../imgs/slide2.gif);
+  background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(11, 11, 11, 0.7)), url(../imgs/bg.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -180,6 +162,22 @@ body {
   background-size: cover;
 }
 
+.heroheader {
+  font-size: 5rem;
+}
+
+.hero34 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 475px) {
+  .heroheader {
+    font-size: 4rem;
+  }
+  .hero34 {
+    font-size: 2rem;
+  }
+}
 .explorecard {
   min-height: 50vh;
 }

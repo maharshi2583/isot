@@ -4,8 +4,8 @@
 }
 
 .slide1 {
-    background: linear-gradient(rgba(11, 11, 11, .9), rgba(11, 11, 11, .9)),
-        url(../imgs/slide2.gif);
+    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
+        url(../imgs/bg.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -20,4 +20,23 @@
     background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
         url(../imgs/slide5.gif);
     background-size: cover;
+}
+
+
+.heroheader {
+    font-size: 5rem;
+}
+
+.hero34 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 475px) {
+    .heroheader {
+        font-size: 4rem;
+    }
+
+    .hero34 {
+        font-size: 2rem;
+    }
 }

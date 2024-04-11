@@ -133,13 +133,6 @@ body {
     }
 }
 
-.heroheader {
-    @include cornerborder() {
-        --s: 30px;
-        outline-color: $orange !important;
-    }
-}
-
 // host city
 @import 'home';
 @import 'hostcity';
