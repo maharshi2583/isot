@@ -2,12 +2,15 @@
 <nav class="navbar navbar-expand-lg bg-white customshadow customcard py-0">
     <div class="container">
         <a class="navbar-brand" href="#"><img src="imgs/logo.png" class="py-0" height="80" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler order-1 order-lg-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <a class="navbar-brand order-0 order-lg-1" href="#"><img src="imgs/sacretarial.png" class="py-0" height="80"
+                alt=""></a>
+        <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="index.php">Home</a>
                 </li>

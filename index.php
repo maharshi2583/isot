@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        <!-- quick links -->
+        <!-- quick links
         <div class="row justify-content-center my-5">
             <div class="col-12">
                 <h1 class="redtext fw-bold text-center mb-3 headingtext">Quick Links</h1>
@@ -113,12 +113,12 @@
                         Brochures</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- tables -->
         <div class="row justify-content-center my-5">
             <div class="col-12">
-                <h1 class="redtext fw-bold text-center mb-3 headingtext">Important Dates</h1>
+                <h1 class="redtext fw-bold text-center mb-3 headingtext">Registration Fees</h1>
                 <!-- large device table -->
                 <div class="row justify-content-center d-none d-md-block">
                     <div class="col-12 card border-0 customshadow customcard p-3">
@@ -328,6 +328,10 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-flex justify-content-center mt-4">
+                    <a href="https://rxregistrations.com/isot2024/" target="_blank" class="btn btn-primary"><i
+                            class="fa-solid fa-user-plus me-2"></i>Register Now</a>
+                </div>
             </div>
         </div>
 
@@ -360,22 +364,22 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
-                            <div class="card-body pt-0">
+                            <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="mb-4" width="195" alt="">
+                                    <img src="imgs/Jigar_Shrimali.png" class="img-fluid mb-4" width="170" alt="">
                                 </div>
-                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
+                                <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
-                            <div class="card-body">
+                            <div class="card-body pt-0">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/Jigar_Shrimali.png" class="img-fluid mb-4" width="170" alt="">
+                                    <img src="imgs/doctor3.png" class="mb-4" width="195" alt="">
                                 </div>
-                                <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
+                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
                             </div>
                         </div>
@@ -387,7 +391,7 @@
         <!-- vanue -->
         <div class="row justify-content-center my-5">
             <div class="col-12">
-                <h1 class="redtext fw-bold text-center mb-4 headingtext">Ultimate Destination</h1>
+                <h1 class="redtext fw-bold text-center mb-4 headingtext">About Vanue</h1>
                 <div class="row justify-content-around pt-3">
                     <div class="col-md-6 col-lg-5 d-flex align-items-center">
                         <div>
@@ -438,18 +442,18 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script>
-    var typed = new Typed(".typing", {
-        strings: ["ISOT 2024"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true,
-    });
+        var typed = new Typed(".typing", {
+            strings: ["ISOT 2024"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true,
+        });
     </script>
 </body>
 
