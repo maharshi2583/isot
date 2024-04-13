@@ -18,9 +18,9 @@
 
 <body>
     <!-- navbar -->
-    <?php 
-        include 'header.php';
-        include 'eventbanner.html';
+    <?php
+    include 'header.php';
+    include 'eventbanner.html';
     ?>
 
     <div class="container">
@@ -64,9 +64,9 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
-                            <div class="card-body pt-0">
+                            <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="img-fluid mb-4" alt="">
+                                    <img src="imgs/doctor3.png" class="img-fluid mb-4" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
@@ -78,15 +78,16 @@
             <!-- ISOT council body -->
             <div class="col-12 mt-5 pt-5">
                 <h1 class="redtext fw-bold text-center mb-4 headingtext">ISOT Council Body (2023-2025)</h1>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 d-flex justify-content-evenly">
+                    <!--  -->
                     <div class="col">
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/arpita_ray.png" class="mb-4" width="170" alt="">
+                                    <img src="imgs/Arpita_Ray_Chaudhury.png" class="mb-4" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Arpita Ray Chaudhury</h5>
-                                <p class="purpletext text-center">President-Elect (Surgeon)</p>
+                                <p class="purpletext text-center">President-Elect(Physician)</p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +195,7 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/Subho_Banerjee.png" class="mb-4" width="170" alt="">
+                                    <img src="imgs/Dr saurabh sharma.png" class="mb-4" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Sourabh Sharma</h5>
                             </div>
@@ -226,8 +227,8 @@
     </div>
 
     <!-- footer -->
-    <?php 
-        include 'footer.php';
+    <?php
+    include 'footer.php';
     ?>
 
     <!-- Bootstrap js -->

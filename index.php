@@ -21,44 +21,41 @@
 
 <body>
     <!-- navbar -->
-    <?php 
-        include 'header.php';
+    <?php
+    include 'header.php';
     ?>
 
     <!-- carousel -->
     <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <div class="row d-flex justify-content-center align-items-center py-5 text-center slide1 main">
-                    <div class="col-md-9 col-lg-7 col-xl-5 col-12 text-white carouselshape">
-                        <!-- <p>34<sup>th</sup></p>
-                        <h1 class="fw-bold headingtext">ISOT 2024</h1>
-                        <p class="mt-4 mb-0 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORGAN TRANSPLANT</p> -->
-                        <!-- <img src="imgs/carousel.png" class="img-fluid" alt=""> -->
-                        <h4 class="hero34">34<sup>th</sup></h4>
-                        <div class="m-3 my-4">
-                            <h1 class="headingtext orangetext fw-bold heroheader"><span class="typing"></span></h1>
-                        </div>
-                        <h4 class="mb-4 px-2">ANNUAL CONFERENCE OF INDIAN SOCIETY OF ORGAN TRANSPLANT</h4>
-                        <h4 class="mb-0 px-2"><i class="fa-solid fa-calendar-days me-2"></i> 17<sup>th</sup> to
-                            20<sup>th</sup> October, 2024</h4>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="carousel-item" data-bs-interval="3000">
-                <div class="row d-flex justify-content-center align-items-center py-5 text-center slide2 main">
-                    <div class="col-md-5 col-12 text-white carouselshape">
-                        <img src="imgs/carousel.png" class="img-fluid" alt="">
+                <div class="row d-flex justify-content-center align-items-center text-center main">
+                    <div class="col-12 text-white carouselshape">
+                        <img src="imgs/Banner1.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="row d-flex justify-content-center align-items-center py-5 text-center slide3 main">
-                    <div class="col-md-5 col-12 text-white carouselshape">
-                        <img src="imgs/carousel.png" class="img-fluid" alt="">
+                <div class="row d-flex justify-content-center align-items-center text-center main">
+                    <div class="col-12 text-white carouselshape">
+                        <img src="imgs/Banner2.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
-            </div> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="row d-flex justify-content-center align-items-center text-center main">
+                    <div class="col-12 text-white carouselshape">
+                        <img src="imgs/Banner3.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="row d-flex justify-content-center align-items-center text-center main">
+                    <div class="col-12 text-white carouselshape">
+                        <img src="imgs/Banner4.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -99,22 +96,6 @@
             </div>
         </div>
 
-        <!-- quick links
-        <div class="row justify-content-center my-5">
-            <div class="col-12">
-                <h1 class="redtext fw-bold text-center mb-3 headingtext">Quick Links</h1>
-            </div>
-            <div class="col-12">
-                <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
-                    <a href="https://rxregistrations.com/isot2024/" target="_blank" class="btn btn-primary mx-3"><i
-                            class="fa-solid fa-user-plus me-2"></i>Registration</a>
-                    <a href="#" class="btn btn-primary mx-3 mt-3 mt-sm-0"><i
-                            class="fa-solid fa-book me-2"></i>Conference
-                        Brochures</a>
-                </div>
-            </div>
-        </div> -->
-
         <!-- tables -->
         <div class="row justify-content-center my-5">
             <div class="col-12">
@@ -127,14 +108,10 @@
                                 <thead>
                                     <tr>
                                         <th>CATEGORY</th>
-                                        <th>Early Bird
-                                            Till April 30 '24</th>
-                                        <th>Regular
-                                            Till June 30 '24</th>
-                                        <th>Advanced
-                                            Till September 30 '24</th>
-                                        <th>Spot
-                                            October 1 '24 Onwards</th>
+                                        <th>Early Bird Till 15<sup>th</sup> May, 2024</th>
+                                        <th>Regular Till 30<sup>th</sup> June, 2024</th>
+                                        <th>Advanced Till 30<sup>th</sup> September, 2024</th>
+                                        <th>Spot Onwards 1<sup>st</sup> October, 2024</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -177,6 +154,13 @@
                             </table>
                         </div>
                     </div>
+                    <!-- Registration button -->
+                    <div class="col-12 my-5">
+                        <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+                            <a href="https://rxregistrations.com/isot2024/" target="_blank"
+                                class="btn btn-primary mx-3"><i class="fa-solid fa-user-plus me-2"></i>Register Now</a>
+                        </div>
+                    </div>
                 </div>
                 <!-- small device table -->
                 <div class="row justify-content-center d-block d-md-none px-3">
@@ -187,23 +171,19 @@
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
-                                            <td>Early Bird
-                                                Till April 30 '24</td>
+                                            <td>Early Bird Till 15<sup>th</sup> May, 2024</td>
                                             <td>₹ 20000</td>
                                         </tr>
                                         <tr>
-                                            <td>Regular
-                                                Till June 30 '24</td>
+                                            <td>Regular Till 30<sup>th</sup> June, 2024</td>
                                             <td>₹ 22000</td>
                                         </tr>
                                         <tr>
-                                            <td>Advanced
-                                                Till September 30 '24</td>
+                                            <td>Advanced Till 30<sup>th</sup> September, 2024</td>
                                             <td>₹ 25000</td>
                                         </tr>
                                         <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
+                                            <td>Spot Onwards 1<sup>st</sup> October, 2024</td>
                                             <td>₹ 27000</td>
                                         </tr>
                                     </tbody>
@@ -216,23 +196,19 @@
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
-                                            <td>Early Bird
-                                                Till April 30 '24</td>
+                                            <td>Early Bird Till 15<sup>th</sup> May, 2024</td>
                                             <td>₹ 22000</td>
                                         </tr>
                                         <tr>
-                                            <td>Regular
-                                                Till June 30 '24</td>
+                                            <td>Regular Till 30<sup>th</sup> June, 2024</td>
                                             <td>₹ 25000</td>
                                         </tr>
                                         <tr>
-                                            <td>Advanced
-                                                Till September 30 '24</td>
+                                            <td>Advanced Till 30<sup>th</sup> September, 2024</td>
                                             <td>₹ 27000</td>
                                         </tr>
                                         <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
+                                            <td>Spot Onwards 1<sup>st</sup> October, 2024</td>
                                             <td>₹ 30000</td>
                                         </tr>
                                     </tbody>
@@ -245,23 +221,19 @@
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
-                                            <td>Early Bird
-                                                Till April 30 '24</td>
+                                            <td>Early Bird Till 15<sup>th</sup> May, 2024</td>
                                             <td>₹ 10000</td>
                                         </tr>
                                         <tr>
-                                            <td>Regular
-                                                Till June 30 '24</td>
+                                            <td>Regular Till 30<sup>th</sup> June, 2024</td>
                                             <td>₹ 12000</td>
                                         </tr>
                                         <tr>
-                                            <td>Advanced
-                                                Till September 30 '24</td>
+                                            <td>Advanced Till 30<sup>th</sup> September, 2024</td>
                                             <td>₹ 12500</td>
                                         </tr>
                                         <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
+                                            <td>Spot Onwards 1<sup>st</sup> October, 2024</td>
                                             <td>₹ 13500</td>
                                         </tr>
                                     </tbody>
@@ -274,23 +246,19 @@
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
-                                            <td>Early Bird
-                                                Till April 30 '24</td>
+                                            <td>Early Bird Till 15<sup>th</sup> May, 2024</td>
                                             <td>$ 300</td>
                                         </tr>
                                         <tr>
-                                            <td>Regular
-                                                Till June 30 '24</td>
+                                            <td>Regular Till 30<sup>th</sup> June, 2024</td>
                                             <td>$ 350</td>
                                         </tr>
                                         <tr>
-                                            <td>Advanced
-                                                Till September 30 '24</td>
+                                            <td>Advanced Till 30<sup>th</sup> September, 2024</td>
                                             <td>$ 370</td>
                                         </tr>
                                         <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
+                                            <td>Spot Onwards 1<sup>st</sup> October, 2024</td>
                                             <td>$ 400</td>
                                         </tr>
                                     </tbody>
@@ -303,23 +271,19 @@
                                 <table class="table table-bordered border-primary mb-0">
                                     <tbody>
                                         <tr>
-                                            <td>Early Bird
-                                                Till April 30 '24</td>
+                                            <td>Early Bird Till 15<sup>th</sup> May, 2024</td>
                                             <td>₹ 10000</td>
                                         </tr>
                                         <tr>
-                                            <td>Regular
-                                                Till June 30 '24</td>
+                                            <td>Regular Till 30<sup>th</sup> June, 2024</td>
                                             <td>₹ 12000</td>
                                         </tr>
                                         <tr>
-                                            <td>Advanced
-                                                Till September 30 '24</td>
+                                            <td>Advanced Till 30<sup>th</sup> September, 2024</td>
                                             <td>₹ 14000</td>
                                         </tr>
                                         <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
+                                            <td>Spot Onwards 1<sup>st</sup> October, 2024</td>
                                             <td>₹ 16000</td>
                                         </tr>
                                     </tbody>
@@ -327,10 +291,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                    <a href="https://rxregistrations.com/isot2024/" target="_blank" class="btn btn-primary"><i
-                            class="fa-solid fa-user-plus me-2"></i>Register Now</a>
                 </div>
             </div>
         </div>
@@ -375,9 +335,9 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
-                            <div class="card-body pt-0">
+                            <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="mb-4" width="195" alt="">
+                                    <img src="imgs/doctor3.png" class="mb-4" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
@@ -391,7 +351,7 @@
         <!-- vanue -->
         <div class="row justify-content-center my-5">
             <div class="col-12">
-                <h1 class="redtext fw-bold text-center mb-4 headingtext">About Vanue</h1>
+                <h1 class="redtext fw-bold text-center mb-4 headingtext">About Venue</h1>
                 <div class="row justify-content-around pt-3">
                     <div class="col-md-6 col-lg-5 d-flex align-items-center">
                         <div>
@@ -435,25 +395,25 @@
     </div>
 
     <!-- footer -->
-    <?php 
-        include 'footer.php';
+    <?php
+    include 'footer.php';
     ?>
 
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
 
     <script>
-        var typed = new Typed(".typing", {
-            strings: ["ISOT 2024"],
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true,
-        });
+    var typed = new Typed(".typing", {
+        strings: ["ISOT 2024"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+    });
     </script>
 </body>
 

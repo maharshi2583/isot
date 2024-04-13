@@ -1,19 +1,19 @@
-@import 'variable';
+@import "variable";
 
 .nav-link {
-    transition: .3s all ease-in;
-    border-bottom: 1px solid transparent;
-
-    &:hover {
-        color: $purple;
-        border-color: $purple;
-    }
+  transition: 0.3s all ease-in;
+  border-bottom: 1px solid transparent;
+  font-size: 15px;
+  &:hover {
+    color: $purple;
+    border-color: $purple;
+  }
 }
 
 .navbar-toggler {
-    color: $purple;
+  color: $purple;
 
-    span {
-        color: $purple;
-    }
+  span {
+    color: $purple;
+  }
 }
