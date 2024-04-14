@@ -55,9 +55,9 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/Jigar_Shrimali.png" class="img-fluid mb-4" width="170" alt="">
+                                    <img src="imgs/doctor3.png" class="img-fluid mb-4" width="170" alt="">
                                 </div>
-                                <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
+                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
                             </div>
                         </div>
@@ -66,9 +66,9 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="img-fluid mb-4" width="170" alt="">
+                                    <img src="imgs/Jigar_Shrimali.png" class="img-fluid mb-4" width="170" alt="">
                                 </div>
-                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
+                                <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
                                 <p class="purpletext text-center mb-0">Organizing Secretary</p>
                             </div>
                         </div>
@@ -158,6 +158,16 @@
                                     <img src="imgs/anurag_gupta.png" class="mb-4" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Anurag Gupta</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 doctorimg border-0 customshadow customcard">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imgs/doctor3.png" class="mb-4" width="170" alt="">
+                                </div>
+                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                             </div>
                         </div>
                     </div>

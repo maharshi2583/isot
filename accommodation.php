@@ -25,7 +25,7 @@
 
     <div class="container">
         <div class="row justify-content-center my-5 align-items-center">
-            <h1 class="redtext fw-bold text-center mb-4 headingtext">Accommodation (Hotel Taj Skyline)</h1>
+            <h1 class="redtext fw-bold text-center mb-4 headingtext">Accommodation (Hotel Taj Skyline - Ahmedabad)</h1>
             <div class="col-lg-5 d-flex justify-content-center align-items-center">
                 <div class="d-flex">
                     <img src="https://q-xx.bstatic.com/xdata/images/hotel/max500/284736624.jpg?k=b0d30f56963afbd06434999733f60c76b05e463afe90176949a8b1dfcfe9b2af&o="
@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-5 mt-5 mt-lg-0">
                 <div class="card px-3 py-4 border-0 customshadow customcard">
-                    <h5 class="redtext fw-bold">Hotel Taj Skyline</h5>
+                    <h5 class="redtext fw-bold">Hotel Taj Skyline - Ahmedabad</h5>
                     <div class="d-flex">
                         <i class="fa-solid fa-location-dot redtext me-2 mt-1 mb-2"></i>
                         <p class="purpletext">Taj Skyline Ahmedabad, Sankalp Square III, Opp. Saket 3, Sindhubhavan
@@ -61,11 +61,11 @@
                                     <tr>
                                         <th>CATEGORY</th>
                                         <th>Early Bird
-                                            Till 15th May '24</th>
+                                            Till 15th May, 2024</th>
                                         <th>Regular
-                                            Till June 30 '24</th>
+                                            Till 30th June, 2024</th>
                                         <th>Advanced
-                                            Till September 30 '24</th>
+                                            Till 30th September, 2024</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -106,23 +106,18 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till 15th May '24</td>
+                                                Till 15th May, 2024</td>
                                             <td>₹ 11000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till June 30 '24</td>
+                                                Till 30th June, 2024</td>
                                             <td>₹ 12500</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till September 30 '24</td>
+                                                Till 30th September, 2024</td>
                                             <td>₹ 18500</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
-
                                         </tr>
                                     </tbody>
                                 </table>
@@ -137,23 +132,18 @@
                                     <tbody>
                                         <tr>
                                             <td>Early Bird
-                                                Till April 30 '24</td>
+                                                Till 15th May, 2024</td>
                                             <td>₹ 14000</td>
                                         </tr>
                                         <tr>
                                             <td>Regular
-                                                Till June 30 '24</td>
+                                                Till 30th June, 2024</td>
                                             <td>₹ 15500</td>
                                         </tr>
                                         <tr>
                                             <td>Advanced
-                                                Till September 30 '24</td>
+                                                Till 30th September, 2024</td>
                                             <td>₹ 21500</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Spot
-                                                October 1 '24 Onwards</td>
-
                                         </tr>
                                     </tbody>
                                 </table>
