@@ -17,6 +17,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#abstractModel").modal('show');
+        });
+    </script>
 </head>
 
 <body>
@@ -24,6 +29,23 @@
     <?php
     include 'header.php';
     ?>
+    <!-- modal -->
+    <div class="modal fade" id="abstractModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://isot.co.in/abstract-submission/" target="_blank">
+                            <img src="imgs/abstractImg.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- carousel -->
     <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -402,18 +424,18 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script>
-    var typed = new Typed(".typing", {
-        strings: ["ISOT 2024"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true,
-    });
+        var typed = new Typed(".typing", {
+            strings: ["ISOT 2024"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true,
+        });
     </script>
 </body>
 
