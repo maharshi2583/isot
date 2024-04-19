@@ -33,11 +33,11 @@
                     <a class="nav-link fw-bold" href="https://rxregistrations.com/isot2024" target="_blank">Register</a>
                 </li>
                 <li class="nav-item mx-lg-2">
-                    <a class="nav-link fw-bold" href="https://isot.co.in/abstract-submission/" target="_
-                    blanck">Abstract Submission</a>
+                    <a class="nav-link fw-bold" href="contactus.php">Contact Us</a>
                 </li>
                 <li class="nav-item mx-lg-2">
-                    <a class="nav-link fw-bold" href="contactus.php">Contact Us</a>
+                    <a class="nav-link fw-bold rainbow_container" href="https://isot.co.in/abstract-submission/" target="_
+                    blanck"><span class="rainbow-text">Abstract Submission</span></a>
                 </li>
             </ul>
         </div>
