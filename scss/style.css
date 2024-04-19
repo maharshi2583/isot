@@ -192,6 +192,25 @@ body {
   transition: 0.4s;
 }
 
+#breadcrumb_container {
+  background: linear-gradient(rgba(11, 11, 11, 0.6), rgba(11, 11, 11, 0.6)), url("../imgs/breadcrums.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+#breadcrumb_container .row {
+  height: -webkit-fill-available;
+}
+#breadcrumb_container .row h1 {
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 450px) {
+  #breadcrumb_container .row h1 {
+    font-size: 3rem;
+  }
+}
 .slide2 {
   background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(11, 11, 11, 0.7)), url(../imgs/slide2.gif);
   background-size: cover;
