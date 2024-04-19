@@ -20,8 +20,16 @@
     <!-- navbar -->
     <?php 
         include 'header.php';
-        include 'eventbanner.html';
     ?>
+
+    <!-- breadcrums -->
+    <div class="container-fluid" id="breadcrumb_container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h1 class="text-center headingtext text-white">Accommodation</h1>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row justify-content-center my-5 align-items-center">

@@ -21,6 +21,15 @@
         include 'header.php';
     ?>
 
+    <!-- breadcrums -->
+    <div class="container-fluid" id="breadcrumb_container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h1 class="text-center headingtext text-white">Sponsorship</h1>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row my-5 justify-content-center px-3 px-sm-0">
             <div class="col-12 mb-3">

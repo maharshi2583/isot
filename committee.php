@@ -20,8 +20,16 @@
     <!-- navbar -->
     <?php
     include 'header.php';
-    include 'eventbanner.html';
     ?>
+
+    <!-- breadcrums -->
+    <div class="container-fluid" id="breadcrumb_container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h1 class="text-center headingtext text-white">Organizing Committee</h1>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row justify-content-center my-5">
@@ -176,19 +184,6 @@
                         <div class="card h-100 doctorimg border-0 customshadow customcard">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-<<<<<<< HEAD
-                                    <img src="imgs/doctor3.png" class="mb-4" width="170" alt="">
-                                </div>
-                                <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 doctorimg border-0 customshadow customcard">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-center">
-=======
->>>>>>> dev
                                     <img src="imgs/Jigar_Shrimali.png" class="mb-4" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Jigar Shrimali</h5>
@@ -258,10 +253,10 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
 
 </html>

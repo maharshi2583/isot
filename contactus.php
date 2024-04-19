@@ -19,8 +19,16 @@
     <!-- navbar -->
     <?php 
         include 'header.php';
-        include 'eventbanner.html';
     ?>
+
+    <!-- breadcrums -->
+    <div class="container-fluid" id="breadcrumb_container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h1 class="text-center headingtext text-white">Contact Us</h1>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row my-5 justify-content-center">

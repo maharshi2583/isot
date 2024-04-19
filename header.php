@@ -1,5 +1,5 @@
 <?php ?>
-<nav class="navbar navbar-expand-xl bg-white customshadow customcard py-0">
+<nav class="navbar navbar-expand-xl bg-white customcard py-0">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="imgs/logo.png" class="py-0" height="80" alt=""></a>
         <button class="navbar-toggler order-1 order-xl-0" type="button" data-bs-toggle="collapse"
