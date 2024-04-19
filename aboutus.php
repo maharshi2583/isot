@@ -19,9 +19,17 @@
     <!-- navbar -->
     <?php 
         include 'header.php';
-        include 'eventbanner.html';
     ?>
+    <!-- breadcrums -->
+    <div class="container-fluid" id="breadcrumb_container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h1 class="text-center headingtext text-white">About us</h1>
+            </div>
+        </div>
+    </div>
 
+    <!-- main content -->
     <div class="container">
         <div class="row justify-content-center mt-4 mb-5">
             <div class="col-12">
@@ -61,9 +69,9 @@
                         <h5 class="orangetext mt-3">Warm regards,<br>
                             The Organizing Committee</h5>
                         <div class="row">
-                            <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
                                 <div class="d-flex justify-content-center">
-                                    <img src="imgs/doctor3.png" class="mb-3" width="195" alt="">
+                                    <img src="imgs/doctor3.png" class="mb-3" width="170" alt="">
                                 </div>
                                 <h5 class="redtext text-center fw-bold">Dr. Vivek Kute</h5>
                                 <p class="purpletext text-center">Organizing Secretary</p>
@@ -90,10 +98,10 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

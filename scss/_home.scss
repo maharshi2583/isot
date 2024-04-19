@@ -1,42 +1,24 @@
-// carousel
-.main {
-    height: calc(100vh - 90px)
-}
-
-.slide1 {
-    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
-        url(../imgs/bg.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
 .slide2 {
-    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
-        url(../imgs/slide2.gif);
-    background-size: cover;
-}
-
-.slide3 {
-    background: linear-gradient(rgba(11, 11, 11, .7), rgba(11, 11, 11, .7)),
-        url(../imgs/slide5.gif);
-    background-size: cover;
+  background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(11, 11, 11, 0.7)),
+    url(../imgs/slide2.gif);
+  background-size: cover;
 }
 
 
 .heroheader {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .hero34 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 475px) {
-    .heroheader {
-        font-size: 4rem;
-    }
+  .heroheader {
+    font-size: 4rem;
+  }
 
-    .hero34 {
-        font-size: 2rem;
-    }
+  .hero34 {
+    font-size: 2rem;
+  }
 }

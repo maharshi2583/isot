@@ -1,140 +1,166 @@
-@import 'variable';
-@import 'navbar';
-
+@import "variable";
+@import "navbar";
 
 @font-face {
-    font-family: headingtext;
-    src: url(../fonts/Philosopher-Bold.ttf);
+  font-family: headingtext;
+  src: url(../fonts/Philosopher-Bold.ttf);
 }
 
 @font-face {
-    font-family: poppins;
-    src: url(../fonts/Poppins-Regular.ttf);
+  font-family: poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 
 ::-webkit-scrollbar {
-    width: 3px !important;
-    height: 3px !important;
-    border-radius: 20px !important;
-    background-color: #f7f9fc !important;
+  width: 3px !important;
+  height: 3px !important;
+  border-radius: 20px !important;
+  background-color: #f7f9fc !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    width: 3px !important;
-    height: 3px !important;
-    border-radius: 20px !important;
-    background-color: $purple !important;
+  width: 3px !important;
+  height: 3px !important;
+  border-radius: 20px !important;
+  background-color: $purple !important;
 }
 
 ::-webkit-scrollbar-track {
-    width: 3px !important;
-    height: 3px !important;
-    border-radius: 20px !important;
-    background-color: #f7f9fc !important;
+  width: 3px !important;
+  height: 3px !important;
+  border-radius: 20px !important;
+  background-color: #f7f9fc !important;
 }
 
 body {
-    background-color: #f7f9fc;
-    background-image: radial-gradient($purple 0.8px, transparent 0.8px), radial-gradient($purple 0.8px, $bg 0.8px);
-    background-size: 32px 32px;
-    background-position: 0 0, 16px 16px;
-    background-attachment: fixed;
-    font-family: poppins, sans-serif;
+  background-color: #f7f9fc;
+  background-image: radial-gradient($purple 0.8px, transparent 0.8px),
+    radial-gradient($purple 0.8px, $bg 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  background-attachment: fixed;
+  font-family: poppins, sans-serif;
 }
 
 .headingtext {
-    font-family: headingtext;
+  font-family: headingtext;
 }
 
 .customshadow {
-    box-shadow: 0px 5px 20px rgba(176, 195, 211, 0.5);
+  box-shadow: 0px 5px 20px rgba(176, 195, 211, 0.5);
 }
 
 .customcard {
-    background-image: url('../imgs/cardbg.jpeg') !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center center;
+  background-image: url("../imgs/cardbg.jpeg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center;
 }
 
 .purpletext {
-    color: $purple;
+  color: $purple;
 }
 
 .redtext {
-    color: $red;
+  color: $red;
 }
 
 .orangetext {
-    color: $orange;
+  color: $orange;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .btn-primary {
-    background-color: $purple !important;
-    border: 1px solid transparent !important;
-    color: $bg !important;
-    width: fit-content;
-    padding: 12px 16px;
-    border-radius: 10px;
+  background-color: $purple !important;
+  border: 1px solid transparent !important;
+  color: $bg !important;
+  width: fit-content;
+  padding: 12px 16px;
+  border-radius: 10px;
 
-    &:hover,
-    &:active,
-    &:focus {
-        box-shadow: none !important;
-        background-color: $bg !important;
-        border: 1px solid $purple !important;
-        color: $purple !important;
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    box-shadow: none !important;
+    background-color: $bg !important;
+    border: 1px solid $purple !important;
+    color: $purple !important;
+  }
 }
 
 .links {
-    color: $purple;
-    text-underline-offset: .5rem;
-    transition: .3s all ease;
+  color: $purple;
+  text-underline-offset: 0.5rem;
+  transition: 0.3s all ease;
 
-    &:hover {
-        color: $red;
-    }
+  &:hover {
+    color: $red;
+  }
 }
 
 // cornor for image
 @mixin cornerborder() {
-    --s: 50px;
-    /* the size on the corner */
-    --t: 5px;
-    /* the thickness of the border */
-    --g: 20px;
-    /* the gap between the border and image */
+  --s: 50px;
+  /* the size on the corner */
+  --t: 5px;
+  /* the thickness of the border */
+  --g: 20px;
+  /* the gap between the border and image */
 
-    @content;
+  @content;
 
-    padding: calc(var(--g) + var(--t));
-    outline: var(--t) solid $red;
-    /* the color here */
-    outline-offset: calc(-1*var(--t));
-    mask:
-        conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)),
-        linear-gradient(#000 0 0) content-box;
-    transition: .4s;
+  padding: calc(var(--g) + var(--t));
+  outline: var(--t) solid $red;
+  /* the color here */
+  outline-offset: calc(-1 * var(--t));
+  mask: conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s)) calc(100% - var(--s)),
+    linear-gradient(#000 0 0) content-box;
+  transition: 0.4s;
 }
 
 .aboutimg {
-    @include cornerborder();
+  @include cornerborder();
 }
 
 .doctorimg {
-    @include cornerborder() {
-        --t: 3px;
-        --g: 1px;
+  @include cornerborder() {
+    --t: 3px;
+    --g: 1px;
+  }
+}
+
+#breadcrumb_container {
+  background: linear-gradient(rgba(11, 11, 11, .6), rgba(11, 11, 11, .6)), url('../imgs/breadcrums.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+
+  .row {
+    height: -webkit-fill-available;
+
+    h1 {
+      font-size: 5rem;
     }
+  }
+}
+
+@media only screen and (max-width:450px) {
+  #breadcrumb_container {
+    .row {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
 }
 
 // host city
-@import 'home';
-@import 'hostcity';
-@import 'contact';
-@import 'sponsorship';
+@import "home";
+@import "hostcity";
+@import "contact";
+@import "sponsorship";
+@import "accomodation";
