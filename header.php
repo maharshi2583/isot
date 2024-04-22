@@ -37,7 +37,7 @@
                 </li>
                 <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold rainbow_container" href="https://isot.co.in/abstract-submission/" target="_
-                    blanck"><span class="rainbow-text">Abstract Submission</span></a>
+                    blanck"><span class="rainbow-text pulse">Abstract Submission</span></a>
                 </li>
             </ul>
         </div>

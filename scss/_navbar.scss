@@ -27,7 +27,6 @@
   background: #fff;
   mix-blend-mode: multiply;
   overflow: hidden;
-
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   padding: 2px 4px 6px;
   margin: -2px -4px -6px;
@@ -43,7 +42,7 @@
   background: white repeating-linear-gradient(90deg, #14ffe9 0%, #ffc800 16.66666%, #ff00e0 33.33333%, #14ffe9 50.0%);
   mix-blend-mode: screen;
   pointer-events: none;
-  animation: move 1s linear infinite;
+  // animation: move 1s linear infinite;
 }
 
 @keyframes move {
@@ -53,6 +52,19 @@
 
   100% {
     transform: translateX(50%);
+  }
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+  padding: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 $red;
   }
 }
 
@@ -73,4 +85,8 @@
 .rainbow_container {
   display: flex;
   background: transparent url(http://api.thumbr.it/whitenoise-300x300.png?background=eeeeeeff&noise=000000&density=15&opacity=10) center;
+
+  &:hover {
+    border-bottom: transparent;
+  }
 }
