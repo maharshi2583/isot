@@ -21,6 +21,10 @@
     <?php 
         include 'header.php';
     ?>
+    <!-- loader -->
+    <div id="loader">
+        <img src="imgs/loader4.gif" width="500" alt="">
+    </div>
 
     <!-- breadcrums -->
     <div class="container-fluid" id="breadcrumb_container">
@@ -276,6 +280,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
     </script>
+    <script src="loader.js"></script>
 </body>
 
 </html>

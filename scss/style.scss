@@ -158,6 +158,20 @@ body {
   }
 }
 
+// loader
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #72c3c9;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // host city
 @import "home";
 @import "hostcity";

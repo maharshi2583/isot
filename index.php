@@ -27,8 +27,14 @@
 <body>
     <!-- navbar -->
     <?php
-    include 'header.php';
+        include 'header.php';
     ?>
+
+    <!-- loader -->
+    <div id="loader">
+        <img src="imgs/loader4.gif" width="500" alt="">
+    </div>
+
     <!-- modal -->
     <div class="modal fade" id="abstractModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -428,15 +434,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
         </script>
-
-    <script>
-        var typed = new Typed(".typing", {
-            strings: ["ISOT 2024"],
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true,
-        });
-    </script>
+    <script src="loader.js"></script>
 </body>
 
 </html>
