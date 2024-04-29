@@ -22,9 +22,9 @@
     include 'header.php';
     ?>
     <!-- loader -->
-    <div id="loader">
+    <!-- <div id="loader">
         <img src="imgs/loader4.gif" width="500" alt="">
-    </div>
+    </div> -->
 
     <!-- breadcrums -->
     <div class="container-fluid" id="breadcrumb_container">

@@ -18,9 +18,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#abstractModel").modal('show');
-        });
+    $(document).ready(function() {
+        $("#abstractModel").modal('show');
+    });
     </script>
 </head>
 
@@ -31,9 +31,9 @@
     ?>
 
     <!-- loader -->
-    <div id="loader">
+    <!-- <div id="loader">
         <img src="imgs/loader4.gif" width="500" alt="">
-    </div>
+    </div> -->
 
     <!-- modal -->
     <div class="modal fade" id="abstractModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -430,10 +430,10 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="loader.js"></script>
 </body>
 
