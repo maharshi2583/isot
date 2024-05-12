@@ -55,8 +55,19 @@
                 </div>
             </div>
         </div>
+        <div class="col-12 mt-2">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/isotindia" class="links text-decoration-none mx-3"><i
+                        class="fs-5 fa-brands fa-facebook" target="_blank"></i></a>
+                <a href="https://twitter.com/indiasotx" class="links text-decoration-none mx-3"><i
+                        class="fs-5 fa-brands fa-x-twitter" target="_blank"></i></a>
+                <a href="https://www.youtube.com/channel/UCcQnxMqw9e8UVWhiiMbs3og"
+                    class="links text-decoration-none mx-3" target="_blank"><i
+                        class="fs-5 fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
         <div class="col-12">
-            <p class="mt-4 mb-0 redtext text-center user-select-none">Copyright © 2024 isot2024.com | Website
+            <p class="mt-2 mb-0 redtext text-center user-select-none">Copyright © 2024 isot2024.com | Website
                 Design & Managed
                 by:
                 [Tech-IT
