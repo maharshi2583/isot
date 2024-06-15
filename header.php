@@ -3,7 +3,7 @@
     <div class="container-fluid customcard border-bottom">
         <div class="container">
             <div class="row py-3">
-                <div class="col-6">
+                <div class="col-sm-5 d-flex justify-content-center justify-content-sm-start">
                     <a href="https://www.facebook.com/isotindia" class="links text-decoration-none mx-2"><i
                             class="fs-5 fa-brands fa-facebook" target="_blank"></i></a>
                     <a href="https://twitter.com/indiasotx" class="links text-decoration-none mx-2"><i
@@ -12,9 +12,12 @@
                         class="links text-decoration-none mx-2" target="_blank"><i
                             class="fs-5 fa-brands fa-youtube"></i></a>
                 </div>
-                <div class="col-6 d-flex justify-content-end align-items-center">
+                <div
+                    class="col-sm-7 mt-4 mt-sm-0 d-flex justify-content-center justify-content-sm-end align-items-center">
                     <a class="nav-link fw-bold rainbow_container" href="https://rxregistrations.com/isot2024"
-                        target="_blanck"><span class="rainbow-text pulse">Register Now</span></a>
+                        target="_blank"><span class="rainbow-text pulse">Register Now</span></a>
+                    <a class="nav-link fw-bold rainbow_container ms-5" href="https://isot.co.in/abstract-submission/"
+                        target="_blank"><span class="rainbow-text pulse">Abstract Submission</span></a>
                 </div>
             </div>
         </div>
@@ -42,6 +45,9 @@
                     <a class="nav-link fw-bold" href="committee.php">Organizing Committee</a>
                 </li>
                 <li class="nav-item mx-lg-2">
+                    <a class="nav-link fw-bold" href="internationalFaculties.php">International Faculties</a>
+                </li>
+                <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="sponsorship.php">Sponsorship</a>
                 </li>
                 <li class="nav-item mx-lg-2">
@@ -56,10 +62,7 @@
                 <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="contactus.php">Contact Us</a>
                 </li>
-                <li class="nav-item mx-lg-2">
-                    <a class="nav-link fw-bold rainbow_container" href="https://isot.co.in/abstract-submission/" target="_
-                    blanck"><span class="rainbow-text pulse">Abstract Submission</span></a>
-                </li>
+
             </ul>
         </div>
     </div>
