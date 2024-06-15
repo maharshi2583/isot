@@ -490,4 +490,8 @@ label::after {
   border-radius: 10px;
   height: auto;
   min-height: 180px;
+}
+
+.pdfiframe {
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */

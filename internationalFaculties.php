@@ -89,17 +89,6 @@
                                 </div>';
                         };
                     ?>
-
-                    <!-- <div class="col">
-                        <div class="card h-100 doctorimg border-0 customshadow customcard">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-center mt-2">
-                                    <img src="imgs/AHN CURIE.png" class="mb-4 facultyBorder" width="170" alt="">
-                                </div>
-                                <h5 class="redtext text-center fw-bold">ADRIENNE SEITZ</h5>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>

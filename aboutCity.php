@@ -73,7 +73,7 @@
         </div>
         <div class="row justify-content-center mt-5 mx-2">
             <div class="col-12 pt-5 mb-4">
-                <h5 class="text-center">Explore</h5>
+                <h5 class="text-center fw-bold purpletext">Explore</h5>
                 <h1 class="redtext fw-bold text-center headingtext">Ahmedabad <span class="orangetext">&</span> Nearby
                 </h1>
             </div>
