@@ -107,6 +107,16 @@
   background-color: #f7f9fc !important;
 }
 
+::-moz-selection {
+  color: #f7f9fc;
+  background-color: #803f99;
+}
+
+::selection {
+  color: #f7f9fc;
+  background-color: #803f99;
+}
+
 body {
   background-color: #f7f9fc;
   background-image: radial-gradient(#803f99 0.8px, transparent 0.8px), radial-gradient(#803f99 0.8px, #f7f9fc 0.8px);
@@ -225,6 +235,11 @@ body {
     font-size: 3rem;
   }
 }
+.facultyBorder {
+  outline: 3px solid #803f99;
+  border-radius: 10px;
+}
+
 #loader {
   position: fixed;
   top: 0;

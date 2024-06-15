@@ -45,7 +45,7 @@
                     <a class="nav-link fw-bold" href="committee.php">Organizing Committee</a>
                 </li>
                 <li class="nav-item mx-lg-2">
-                    <a class="nav-link fw-bold" href="internationalFaculties.php">International Faculties</a>
+                    <a class="nav-link fw-bold" href="internationalFaculties.php">International Faculty</a>
                 </li>
                 <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="sponsorship.php">Sponsorship</a>

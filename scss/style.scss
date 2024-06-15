@@ -32,6 +32,11 @@
   background-color: #f7f9fc !important;
 }
 
+::selection {
+  color: #f7f9fc;
+  background-color: $purple;
+}
+
 body {
   background-color: #f7f9fc;
   background-image: radial-gradient($purple 0.8px, transparent 0.8px),
@@ -158,7 +163,14 @@ body {
   }
 }
 
+// faculty image border
+.facultyBorder {
+  outline: 3px solid $purple;
+  border-radius: 10px;
+}
+
 // loader
+
 #loader {
   position: fixed;
   top: 0;
