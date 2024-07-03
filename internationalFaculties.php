@@ -39,51 +39,61 @@
 
                     <?php 
                         $faculty = array(
-                            array('url' => 'imgs/international/ADRIENNE SEITZ.png', 'name' => 'ADRIENNE SEITZ'),
-                            array('url' => 'imgs/international/AHN CURIE.png', 'name' => 'AHN CURIE'),
-                            array('url' => 'imgs/international/AJAY KUMAR SHARMA.jpg', 'name' => 'AJAY KUMAR SHARMA'),
-                            array('url' => 'imgs/international/ALI ABDUL KAREEM AL OBAIDLI.jpg', 'name' => 'ALI ABDUL KAREEM AL OBAIDLI'),
-                            array('url' => 'imgs/international/BEATRIZ DOMINGUEZ-GIL.jpg', 'name' => 'BEATRIZ DOMINGUEZ-GIL'),
-                            array('url' => 'imgs/international/CARLOS ESQUIVE.jpg', 'name' => 'CARLOS ESQUIVE'),
-                            array('url' => 'imgs/international/CHLOË BALLESTÉ.jpg', 'name' => 'CHLOË BALLESTÉ'),
-                            array('url' => 'imgs/international/CHRIS CALLAGHAN.jpg', 'name' => 'CHRIS CALLAGHAN'),
-                            array('url' => 'imgs/international/DEIRDRE SAWINSKI.png', 'name' => 'DEIRDRE SAWINSKI'),
-                            array('url' => 'imgs/international/DEVI MEY.jpg', 'name' => 'DEVI MEY'),
-                            array('url' => 'imgs/international/DORRY SEGEV.jpg', 'name' => 'DORRY SEGEV'),
-                            array('url' => 'imgs/international/ELMI MULLER.jpg', 'name' => 'ELMI MULLER'),
-                            array('url' => 'imgs/international/FOTINI PARTHENIOU.png', 'name' => 'FOTINI PARTHENIOU'),
-                            array('url' => 'imgs/international/GABRIEL ONISCU.jpg', 'name' => 'GABRIEL ONISCU'),
-                            array('url' => 'imgs/international/HAIBO WANG.png', 'name' => 'HAIBO WANG'),
-                            array('url' => 'imgs/international/JEREMY CHAPMAN.jpg', 'name' => 'JEREMY CHAPMAN'),
-                            array('url' => 'imgs/international/JOHN FRIEDEWALD.png', 'name' => 'JOHN FRIEDEWALD'),
-                            array('url' => 'imgs/international/JOHN FUNG.jpg', 'name' => 'JOHN FUNG'),
-                            array('url' => 'imgs/international/JOSH LEVITSKY.png', 'name' => 'JOSH LEVITSKY'),
-                            array('url' => 'imgs/international/KRIENGSAK VAREESANGTHIP.png', 'name' => 'KRIENGSAK VAREESANGTHIP'),
-                            array('url' => 'imgs/international/KRISHNA MENON.jpg', 'name' => 'KRISHNA MENON'),
-                            array('url' => 'imgs/international/LARS WENNBERG.jpg', 'name' => 'LARS WENNBERG'),
-                            array('url' => 'imgs/international/MAGGIE MA.png', 'name' => 'MAGGIE MA'),
-                            array('url' => 'imgs/international/MARCELLE MCPHADEN.jpg', 'name' => 'MARCELLE MCPHADEN'),
-                            array('url' => 'imgs/international/MARCELO CANTAROVICH.jpg', 'name' => 'MARCELO CANTAROVICH'),
-                            array('url' => 'imgs/international/MARIA PAULA GOMEZ.jpg', 'name' => 'MARIA PAULA GOMEZ'),
-                            array('url' => 'imgs/international/MUSTAFA AL-MOUSAWI.png', 'name' => 'MUSTAFA AL-MOUSAWI'),
-                            array('url' => 'imgs/international/NATASHA KHOVANOVA.jpg', 'name' => 'NATASHA KHOVANOVA'),
-                            array('url' => 'imgs/international/RUPESH RAINA.jpg', 'name' => 'RUPESH RAINA'),
-                            array('url' => 'imgs/international/SANJAY SINHA.png', 'name' => 'SANJAY SINHA'),
-                            array('url' => 'imgs/international/SIAN GRIFFIN.jpg', 'name' => 'SIAN GRIFFIN'),
-                            array('url' => 'imgs/international/STEFAN G. TULLIUS.jpg', 'name' => 'STEFAN G. TULLIUS'),
-                            array('url' => 'imgs/international/SUNIL DAGA.jpg', 'name' => 'SUNIL DAGA'),
-                            array('url' => 'imgs/international/SUSHMA SHANKAR.png', 'name' => 'SUSHMA SHANKAR'),
+                            array('url' => 'imgs/international/ADRIENNE SEITZ.png', 'name' => 'ADRIENNE SEITZ', 'country'=>'UK'),
+                            array('url' => 'imgs/international/AHN CURIE.png', 'name' => 'AHN CURIE', 'country'=>'Korea'),
+                            array('url' => 'imgs/international/AJAY KUMAR SHARMA.jpg', 'name' => 'AJAY SHARMA', 'country'=>'UK'),
+                            array('url' => 'imgs/international/ALI ABDUL KAREEM AL OBAIDLI.jpg', 'name' => 'ALI ABDUL KAREEM AL OBAIDLI', 'country'=>'Abu Dhabi, UAE'),
+                            array('url' => 'imgs/international/BEATRIZ DOMINGUEZ-GIL.jpg', 'name' => 'BEATRIZ DOMINGUEZ-GIL', 'country'=>'Spain'),
+                            array('url' => 'imgs/international/CARLOS ESQUIVE.jpg', 'name' => 'CARLOS ESQUIVE', 'country'=>'USA'),
+                            array('url' => 'imgs/international/CHLOË BALLESTÉ.jpg', 'name' => 'CHLOË BALLESTÉ DELPIERRE', 'country'=>'Spain'),
+                            array('url' => 'imgs/international/CHRIS CALLAGHAN.jpg', 'name' => 'CHRIS CALLAGHAN', 'country'=>'UK'),
+                            array('url' => 'imgs/international/DEIRDRE SAWINSKI.png', 'name' => 'DEIRDRE SAWINSKI', 'country'=>'USA'),
+                            array('url' => 'imgs/international/Dieter Haffner.png', 'name' => 'DIETER HAFFNER', 'country'=>'UK'),
+                            array('url' => 'imgs/international/DORRY SEGEV.jpg', 'name' => 'DORRY SEGEV', 'country'=>'USA'),
+                            array('url' => 'imgs/international/ELMI MULLER.jpg', 'name' => 'ELMI MULLER', 'country'=>'Africa'),
+                            array('url' => 'imgs/international/Faisal Masood Khan.jpg', 'name' => 'FAISAL Masood Khan', 'country'=>'Canada'),
+                            array('url' => 'imgs/international/FOTINI PARTHENIOU.png', 'name' => 'FOTINI PARTHENIOU', 'country'=>'UK'),
+                            array('url' => 'imgs/international/GABRIEL ONISCU.jpg', 'name' => 'GABRIEL ONISCU', 'country'=>'Europe'),
+                            array('url' => 'imgs/international/HAIBO WANG.png', 'name' => 'HAIBO WANG', 'country'=>'China'),
+                            array('url' => 'imgs/international/JEREMY CHAPMAN.jpg', 'name' => 'JEREMY CHAPMAN', 'country'=>'Australia'),
+                            array('url' => 'imgs/international/JOHN FRIEDEWALD.png', 'name' => 'JOHN FRIEDEWALD', 'country'=>'USA'),
+                            array('url' => 'imgs/international/JOSH LEVITSKY.png', 'name' => 'JOSH LEVITSKY', 'country'=>'USA'),
+                            array('url' => 'imgs/international/KRIENGSAK VAREESANGTHIP.png', 'name' => 'KRIENGSAK VAREESANGTHIP', 'country'=>'Thailand'),
+                            array('url' => 'imgs/international/KRISHNA MENON.jpg', 'name' => 'KRISH MENON','country'=>'UK'),
+                            array('url' => 'imgs/international/MAGGIE MA.png', 'name' => 'MAGGIE MA', 'country'=>'Hong Kong'),
+                            // array('url' => 'imgs/international/MARCELLE MCPHADEN.jpg', 'name' => 'MARCELLE MCPHADEN', 'country'=>'Canada'),
+                            array('url' => 'imgs/international/MARCELO CANTAROVICH.jpg', 'name' => 'MARCELO CANTAROVICH', 'country'=>'Canada'),
+                            array('url' => 'imgs/international/MARIA PAULA GOMEZ.jpg', 'name' => 'MARIA PAULA GOMEZ', 'country'=>'Spain'),
+                            array('url' => 'imgs/international/Allan Massie.jpg', 'name' => 'Allan Massie', 'country'=>'USA'),
+                            array('url' => 'imgs/international/MUSTAFA AL-MOUSAWI.png', 'name' => 'MUSTAFA AL-MOUSAWI', 'country'=>'Kuwait'),
+                            array('url' => 'imgs/international/NATASHA KHOVANOVA.jpg', 'name' => 'NATASHA KHOVANOVA', 'country'=>'UK'),
+                            array('url' => 'imgs/international/', 'name' => 'Nikky Isabel', 'country'=>'UK'),
+                            array('url' => 'imgs/international/', 'name' => 'Rajendra Singh', 'country'=>'UK'),
+                            array('url' => 'imgs/international/', 'name' => 'Raman Dhanda', 'country'=>'UK'),
+                            array('url' => 'imgs/international/RUPESH RAINA.jpg', 'name' => 'RUPESH RAINA', 'country'=>'USA'),
+                            array('url' => 'imgs/international/', 'name' => 'Sainaresh Vellanki', 'country'=>'Abu Dhabi, UAE'),
+                            array('url' => 'imgs/international/SANJAY SINHA.png', 'name' => 'SANJAY SINHA', 'country'=>'UK'),
+                            array('url' => 'imgs/international/', 'name' => 'Shafi Malik', 'country'=>'UK'),
+                            array('url' => 'imgs/international/SIAN GRIFFIN.jpg', 'name' => 'SIAN GRIFFIN', 'country'=>'UK'),
+                            array('url' => 'imgs/international/Siddiq Anwar.jpg', 'name' => 'Siddiq Anwar', 'country'=>'Abu Dhabi, UAE'),
+                            array('url' => 'imgs/international/STEFAN G. TULLIUS.jpg', 'name' => 'STEFAN G. TULLIUS', 'country'=>'USA'),
+                            array('url' => 'imgs/international/', 'name' => 'STEPHEN MARKS', 'country'=>'USA'),
+                            array('url' => 'imgs/international/SUNIL DAGA.jpg', 'name' => 'SUNIL DAGA', 'country'=>'UK'),
+                            array('url' => 'imgs/international/SUSHMA SHANKAR.png', 'name' => 'SUSHMA SHANKAR', 'country'=>'UK'),
+                            array('url' => 'imgs/international/Yolanda Becker.jpg', 'name' => 'Yolanda Becker', 'country'=>'USA'),
                         );
                         foreach($faculty as $faculty){
                             $url = htmlspecialchars($faculty['url']);
                             $name = htmlspecialchars($faculty['name']);
+                            $country = htmlspecialchars($faculty['country']);
                             echo '<div class="col">
                                     <div class="card h-100 doctorimg border-0 customshadow customcard">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-center mt-2">
-                                                <img src="' . $url . '" class="mb-4 facultyBorder" width="170" alt="">
+                                                <img src="' . $url . '" class="mb-4 facultyBorder" width="170" height="170" alt="">
                                             </div>
-                                            <h5 class="redtext text-center fw-bold">' . $name . '</h5>
+                                            <h5 class="redtext text-center fw-bold text-uppercase">' . $name . '</h5>
+                                            <p class="orangetext text-center fw-bold mb-0">' . $country . '</p>
                                         </div>
                                     </div>
                                 </div>';
