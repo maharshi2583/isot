@@ -81,6 +81,7 @@
                             array('url' => 'imgs/international/SUNIL DAGA.jpg', 'name' => 'SUNIL DAGA', 'country'=>'UK'),
                             array('url' => 'imgs/international/SUSHMA SHANKAR.png', 'name' => 'SUSHMA SHANKAR', 'country'=>'UK'),
                             array('url' => 'imgs/international/Yolanda Becker.jpg', 'name' => 'Yolanda Becker', 'country'=>'USA'),
+                            array('url' => 'imgs/international/Devam Desai.jpg', 'name' => 'Devam Desai', 'country'=>'INDIA'),
                         );
                         foreach($faculty as $faculty){
                             $url = htmlspecialchars($faculty['url']);
