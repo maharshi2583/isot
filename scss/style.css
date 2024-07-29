@@ -1,7 +1,7 @@
 .nav-link {
   transition: 0.3s all ease-in;
   border-bottom: 1px solid transparent;
-  font-size: 15px;
+  font-size: 14px;
 }
 .nav-link:hover {
   color: #803f99;

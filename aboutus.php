@@ -46,30 +46,28 @@
                         <p class="purpletext">Dear Esteemed Colleagues and Industry Leaders, 'Kem Cho' from the vibrant
                             city of Ahmedabad,</p>
                         <p class="purpletext text-justify">It is with great pleasure that we, on behalf of the
-                            organising team, extend a warm invita on to
-                            th
-                            you for the eagerly awaited 34 Annual Conference of Indian Society of Organ Transplant,2024.
-                            This event, set against the historic backdrop of Ahmedabad, a UNESCO World Heritage City,
-                            promises an unparalleled convergence of leading experts, researchers, and industry
-                            professionals in the field of organ transplanta on. The city's rich heritage, combined with
-                            its
-                            dynamic modernity, offers the perfect se ng to inspire innova on and collabora on in the
-                            pursuit of enhancing transplant pa ent care
+                            organising team, extend a warm invitation to you for the eagerly awaited 34 Annual
+                            Conference of Indian Society of Organ Transplant,2024. This event, set against the historic
+                            backdrop of Ahmedabad, a UNESCO World Heritage City, promises an unparalleled convergence of
+                            leading experts, researchers, and industry professionals in the field of organ
+                            transplantation. The city's rich heritage, combined with its dynamic modernity, offers the
+                            perfect se ng to inspire innovation and collaboration on in the pursuit of enhancing
+                            transplant patient care.
                         </p>
                         <p class="purpletext text-justify">The ISOT 2024 conference is poised to be a milestone event,
-                            featuring a rich scien fic program,
-                            inspiring keynote addresses, thought-provoking panel discussions, and hands-on workshops.
-                            As Ahmedabad prides itself on its blend of cultural legacy and academic excellence, the
-                            conference will provide a unique pla orm for a endees to share pioneering advancements,
-                            present research findings, and discuss the latest trends in organ transplanta on.</p>
-                        <p class="purpletext text-justify">This conference represents an exceponal opportunity for your
-                            organisaon to showcase its
-                            contribuons to the organ transplantaon field. By parcipang as a sponsor or exhibitor, you
-                            can elevate your brand within this crical medical community, forge connecons with key
-                            professionals, and play a pivotal role in the spread of vital, life-saving knowledge.</p>
+                            featuring a rich scientific program, inspiring keynote addresses, thought-provoking panel
+                            discussions, and hands-on workshops. As Ahmedabad prides itself on its blend of cultural
+                            legacy and academic excellence, the conference will provide a unique platform for attendees
+                            to share pioneering advancements, present research findings, and discuss the latest trends
+                            in organ transplantation.</p>
+                        <p class="purpletext text-justify">This conference represents an exceptional opportunity for
+                            your organisation to showcase its contributions to the organ transplantation field. By
+                            participating as a sponsor or exhibitor, you can elevate your brand within this critical
+                            medical community, forge connections with key professionals, and play a pivotal role in the
+                            spread of vital, life-saving knowledge.</p>
                         <p class="purpletext text-justify">We are eager to welcome you to the ISOT Conference 2024 in
-                            Ahmedabad, where tradion
-                            meets innovaon, to jointly propel forward the domain of organ transplantaon.
+                            Ahmedabad, where tradition meets innovation, to jointly propel forward the domain of organ
+                            transplantation.
                         </p>
                         <h5 class="orangetext mt-3">Warm regards,<br>
                             The Organizing Committee</h5>

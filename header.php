@@ -59,8 +59,8 @@
                 <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="aboutCity.php">Host City</a>
                 </li>
-                <li class="nav-item mx-lg-2">
-                    <a class="nav-link fw-bold" href="https://rxregistrations.com/isot2024" target="_blank">Register</a>
+               <li class="nav-item mx-lg-2">
+                    <a class="nav-link fw-bold" href="./abstractGuideline.php">Abstract Guideline</a>
                 </li>
                 <li class="nav-item mx-lg-2">
                     <a class="nav-link fw-bold" href="contactus.php">Contact Us</a>
