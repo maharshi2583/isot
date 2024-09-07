@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script src="PDFJSExpress/lib/webviewer.min.js"></script>
 </head>
 
 <body>
@@ -34,46 +32,13 @@
     <!-- main content -->
     <div class="container-fluid">
         <div class="row justify-content-center my-5">
-            <div id="pdf-container" class="pdfiframe"></div>
+            <iframe src="asset/ISOT Scientific Agenda.pdf" class="pdfiframe"></iframe>
         </div>
 
         <!-- footer -->
         <?php 
-        include 'footer.php';
-    ?>
-        <script>
-            WebViewer({
-                path: 'PDFJSExpress/lib/', // path to the PDF.js Express'lib' folder on your server
-                licenseKey: 'pwug34KTO7uWtiFMvW4C',
-                initialDoc: 'asset/ISOT Scientific Agenda.pdf',
-                disabledElements: [
-                    'leftPanelButton',
-                    'viewControlsButton',
-                    'panToolButton',
-                    'selectToolButton',
-                    'freeHandToolGroupButton',
-                    'textToolGroupButton',
-                    'ribbons',
-                    'searchButton',
-                    'textSelectButton',
-                    'toggleNotesButton',
-                    'menuButton',
-                    'moreButton',
-                    'toolsHeader'
-                ],
-                enableElements: [
-                    'zoomOutButton',
-                    'zoomInButton'
-                ]
-            }, document.getElementById('pdf-container'))
-                .then(instance => {
-                    const docViewer = instance.docViewer;
-                    const annotManager = instance.annotManager;
-
-                    docViewer.on('documentLoaded', () => {
-
-                    });
-                });
+            include 'footer.php';
+        ?>
         </script>
         <!-- Bootstrap js -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
