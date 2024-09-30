@@ -36,52 +36,52 @@
         <div class="row justify-content-center my-5">
             <div id="pdf-container" class="pdfiframe"></div>
         </div>
-
-        <!-- footer -->
-        <?php 
+    </div>
+    <!-- footer -->
+    <?php 
         include 'footer.php';
     ?>
-        <script>
-            WebViewer({
-                path: 'PDFJSExpress/lib/', // path to the PDF.js Express'lib' folder on your server
-                licenseKey: 'pwug34KTO7uWtiFMvW4C',
-                initialDoc: 'asset/ISOT Scientific Agenda.pdf',
-                disabledElements: [
-                    'leftPanelButton',
-                    'viewControlsButton',
-                    'panToolButton',
-                    'selectToolButton',
-                    'freeHandToolGroupButton',
-                    'textToolGroupButton',
-                    'ribbons',
-                    'searchButton',
-                    'textSelectButton',
-                    'toggleNotesButton',
-                    'menuButton',
-                    'moreButton',
-                    'toolsHeader'
-                ],
-                enableElements: [
-                    'zoomOutButton',
-                    'zoomInButton'
-                ]
-            }, document.getElementById('pdf-container'))
-                .then(instance => {
-                    const docViewer = instance.docViewer;
-                    const annotManager = instance.annotManager;
+    <script>
+        WebViewer({
+            path: 'PDFJSExpress/lib/', // path to the PDF.js Express'lib' folder on your server
+            licenseKey: 'pwug34KTO7uWtiFMvW4C',
+            initialDoc: 'asset/ISOT Scientific Agenda.pdf',
+            disabledElements: [
+                'leftPanelButton',
+                'viewControlsButton',
+                'panToolButton',
+                'selectToolButton',
+                'freeHandToolGroupButton',
+                'textToolGroupButton',
+                'ribbons',
+                'searchButton',
+                'textSelectButton',
+                'toggleNotesButton',
+                'menuButton',
+                'moreButton',
+                'toolsHeader'
+            ],
+            enableElements: [
+                'zoomOutButton',
+                'zoomInButton'
+            ]
+        }, document.getElementById('pdf-container'))
+            .then(instance => {
+                const docViewer = instance.docViewer;
+                const annotManager = instance.annotManager;
 
-                    docViewer.on('documentLoaded', () => {
+                docViewer.on('documentLoaded', () => {
 
-                    });
                 });
+            });
+    </script>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
         </script>
-        <!-- Bootstrap js -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-            </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-            </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
