@@ -32,8 +32,22 @@
     </div>
 
     <!-- main content -->
+    <div class="container">
+        <div class="row my-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item m-2">
+                    <button id="scientificAgenda" class="btn btn-primary" onclick="handleButtonClick()">Scientific
+                        Agenda</button>
+                </li>
+                <li class="nav-item m-2">
+                    <button id="posterAgenda" class="btn btn-outline-primary"
+                        onclick="handleButtonClick()">Oral & Poster Agenda</button>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="container-fluid">
-        <div class="row justify-content-center my-5">
+        <div class="row justify-content-center mb-5">
             <div id="pdf-container" class="pdfiframe"></div>
         </div>
     </div>
@@ -42,46 +56,75 @@
         include 'footer.php';
     ?>
     <script>
-        WebViewer({
-            path: 'PDFJSExpress/lib/', // path to the PDF.js Express'lib' folder on your server
-            licenseKey: 'pwug34KTO7uWtiFMvW4C',
-            initialDoc: 'asset/ISOT Scientific Agenda.pdf',
-            disabledElements: [
-                'leftPanelButton',
-                'viewControlsButton',
-                'panToolButton',
-                'selectToolButton',
-                'freeHandToolGroupButton',
-                'textToolGroupButton',
-                'ribbons',
-                'searchButton',
-                'textSelectButton',
-                'toggleNotesButton',
-                'menuButton',
-                'moreButton',
-                'toolsHeader'
-            ],
-            enableElements: [
-                'zoomOutButton',
-                'zoomInButton'
-            ]
-        }, document.getElementById('pdf-container'))
-            .then(instance => {
-                const docViewer = instance.docViewer;
-                const annotManager = instance.annotManager;
+    let instance; // Declare instance outside to access in the function
 
-                docViewer.on('documentLoaded', () => {
+    function loadPDF(url) {
+        if (instance) {
+            instance.loadDocument(url); // Load new PDF
+        } else {
+            WebViewer({
+                    path: 'PDFJSExpress/lib/',
+                    licenseKey: 'pwug34KTO7uWtiFMvW4C',
+                    initialDoc: url,
+                    disabledElements: [
+                        'leftPanelButton',
+                        'viewControlsButton',
+                        'panToolButton',
+                        'selectToolButton',
+                        'freeHandToolGroupButton',
+                        'textToolGroupButton',
+                        'ribbons',
+                        'searchButton',
+                        'textSelectButton',
+                        'toggleNotesButton',
+                        'menuButton',
+                        'moreButton',
+                        'toolsHeader'
+                    ],
+                    enableElements: [
+                        'zoomOutButton',
+                        'zoomInButton'
+                    ]
+                }, document.getElementById('pdf-container'))
+                .then(inst => {
+                    instance = inst; // Save the instance
+                    const docViewer = instance.docViewer;
+                    const annotManager = instance.annotManager;
 
+                    docViewer.on('documentLoaded', () => {
+                        // Document loaded actions
+                    });
                 });
-            });
+        }
+    }
+
+    // Load the default PDF initially
+    loadPDF('asset/ISOT Scientific Agenda.pdf');
+
+    function handleButtonClick(pdfPath, activeId, inactiveId) {
+        loadPDF(pdfPath);
+        // Update button classes
+        document.getElementById(activeId).classList.add("btn-primary");
+        document.getElementById(activeId).classList.remove("btn-outline-primary");
+        document.getElementById(inactiveId).classList.add("btn-outline-primary");
+        document.getElementById(inactiveId).classList.remove("btn-primary");
+    }
+
+    // Event listeners for buttons
+    document.getElementById('scientificAgenda').addEventListener('click', () => {
+        handleButtonClick('../../../asset/ISOT Scientific Agenda.pdf', 'scientificAgenda', 'posterAgenda');
+    });
+    document.getElementById('posterAgenda').addEventListener('click', () => {
+        handleButtonClick('../../../asset/ISOT ORAL & POSTER.pdf', 'posterAgenda', 'scientificAgenda');
+    });
     </script>
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
 
 </html>
